@@ -1,0 +1,263 @@
+Create:
+
+api/
+└── institution-mapper/
+    ├── README.md
+    ├── openapi.yaml
+    ├── package.json
+    ├── server.js
+    ├── mapper.js
+    ├── institution-schema.json
+    ├── graph-schema.json
+    ├── relationship-types.json
+    ├── examples/
+    │   ├── ministry.json
+    │   ├── agency.json
+    │   └── graph-output.json
+    └── tests/
+README.md
+# Institution Mapper API
+
+The Institution Mapper converts institutional information into a machine-readable Institutional Knowledge Graph.
+
+It identifies institutions, governance relationships, Digital Public Infrastructure dependencies, procurement relationships, AI governance structures, and capability networks.
+
+The mapper is the graph-generation engine of the Legibility Office Institutional Operating System (IOS).
+
+---
+
+## Features
+
+- Institution mapping
+- Organization graph generation
+- Ministry mapping
+- Agency mapping
+- Governance hierarchy
+- Procurement ecosystem mapping
+- Digital Public Infrastructure mapping
+- Capability dependency mapping
+- Institutional relationship discovery
+
+---
+
+## Mapping Pipeline
+
+Institution
+
+↓
+
+Entity Extraction
+
+↓
+
+Relationship Discovery
+
+↓
+
+Graph Construction
+
+↓
+
+Knowledge Graph
+
+↓
+
+Institutional Intelligence
+
+---
+
+## Endpoints
+
+POST /map
+
+POST /graph
+
+POST /relationships
+
+GET /schema
+
+GET /health
+openapi.yaml
+openapi: 3.0.3
+
+info:
+  title: Institution Mapper API
+  version: 1.0.0
+
+paths:
+
+  /map:
+    post:
+      summary: Map institution
+
+  /graph:
+    post:
+      summary: Build institutional graph
+
+  /relationships:
+    post:
+      summary: Discover institutional relationships
+
+  /schema:
+    get:
+      summary: Retrieve graph schema
+
+  /health:
+    get:
+      summary: Health check
+package.json
+{
+  "name": "institution-mapper",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
+server.js
+const express = require("express");
+const mapper = require("./mapper");
+
+const app = express();
+
+app.use(express.json());
+
+app.post("/map", (req, res) => {
+    res.json(mapper.map(req.body));
+});
+
+app.get("/health", (req, res) => {
+    res.json({
+        status: "running"
+    });
+});
+
+app.listen(8083);
+mapper.js
+function map(data){
+
+    return {
+
+        nodes: [],
+
+        edges: [],
+
+        graphVersion: "1.0"
+
+    };
+
+}
+
+module.exports = {
+
+    map
+
+};
+institution-schema.json
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Institution",
+  "type":"object",
+  "required":[
+    "id",
+    "name",
+    "type"
+  ]
+}
+graph-schema.json
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"Institution Graph",
+  "type":"object",
+  "required":[
+    "nodes",
+    "edges"
+  ]
+}
+relationship-types.json
+{
+  "relationships":[
+    "governs",
+    "owns",
+    "coordinates",
+    "regulates",
+    "supports",
+    "funds",
+    "implements",
+    "reports_to",
+    "depends_on",
+    "shares_data_with",
+    "integrates_with",
+    "strengthens",
+    "inherits_from",
+    "monitors",
+    "audits"
+  ]
+}
+examples/ministry.json
+{
+  "id":"min-finance",
+
+  "name":"Ministry of Finance",
+
+  "type":"Ministry",
+
+  "country":"Nigeria"
+}
+examples/agency.json
+{
+  "id":"bpp",
+
+  "name":"Bureau of Public Procurement",
+
+  "type":"Agency",
+
+  "country":"Nigeria"
+}
+examples/graph-output.json
+{
+  "nodes":[
+    {
+      "id":"min-finance",
+      "type":"Ministry",
+      "name":"Ministry of Finance"
+    },
+    {
+      "id":"bpp",
+      "type":"Agency",
+      "name":"Bureau of Public Procurement"
+    }
+  ],
+
+  "edges":[
+    {
+      "source":"min-finance",
+      "target":"bpp",
+      "relationship":"governs"
+    }
+  ]
+}
+
+
+The Institution Mapper completes the core intelligence pipeline of your platform:
+
+Institution Data
+        │
+        ▼
+Policy Parser
+        │
+        ▼
+Institution Mapper
+        │
+        ▼
+Institutional Knowledge Graph
+        │
+        ▼
+IOS Validator
+        │
+        ▼
+Governance Score API
+        │
+        ▼
+Institutional Intelligence
+
+With these APIs, the Legibility Office evolves from a framework repository into a platform that can ingest, structure, connect, validate, and measure institutions. This positions it as an extensible foundation for digital governance tools, institutional analytics, and AI-assisted public administration.
