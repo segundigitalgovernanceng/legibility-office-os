@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/segundigitalgovernanceng/legibility-office-os/schemas/governance.json",
+  "title": "Legibility Office Governance Schema",
+  "description": "Canonical governance architecture model for the Institutional Operating System (IOS).",
+  "type": "object",
+  "required": [
+    "governance_id",
+    "institution",
+    "country",
+    "governance_layer",
+    "governance_primitives",
+    "coordination_model",
+    "institutional_memory",
+    "accountability",
+    "capability_score",
+    "status"
+  ],
+  "properties": {
+    "governance_id": {
+      "type": "string",
+      "description": "Unique governance record identifier."
+    },
+    "institution": {
+      "type": "string",
+      "description": "Institution responsible for governance."
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or jurisdiction."
+    },
+    "governance_layer": {
+      "type": "string",
+      "enum": [
+        "Constitutional",
+        "Strategic",
+        "Institutional",
+        "Operational",
+        "Digital",
+        "Adaptive"
+      ]
+    },
+    "governance_primitives": {
+      "type": "array",
+      "description": "Core institutional primitives.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Authority",
+          "Identity",
+          "Trust",
+          "Evidence",
+          "Standards",
+          "Accountability",
+          "Coordination",
+          "Institutional Memory",
+          "Knowledge",
+          "Time",
+          "Risk",
+          "Interoperability",
+          "Capital Allocation",
+          "Consent"
+        ]
+      }
+    },
+    "coordination_model": {
+      "type": "object",
+      "properties": {
+        "horizontal": {
+          "type": "boolean"
+        },
+        "vertical": {
+          "type": "boolean"
+        },
+        "cross_sector": {
+          "type": "boolean"
+        }
+      }
+    },
+    "institutional_memory": {
+      "type": "object",
+      "properties": {
+        "knowledge_repository": {
+          "type": "boolean"
+        },
+        "audit_logs": {
+          "type": "boolean"
+        },
+        "decision_history": {
+          "type": "boolean"
+        },
+        "learning_cycle": {
+          "type": "boolean"
+        }
+      }
+    },
+    "accountability": {
+      "type": "object",
+      "properties": {
+        "audit": {
+          "type": "boolean"
+        },
+        "transparency": {
+          "type": "boolean"
+        },
+        "oversight": {
+          "type": "boolean"
+        },
+        "performance_monitoring": {
+          "type": "boolean"
+        }
+      }
+    },
+    "capability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Institutional capability maturity score."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Emerging",
+        "Developing",
+        "Established",
+        "Advanced",
+        "Adaptive"
+      ]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
