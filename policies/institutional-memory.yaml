@@ -1,0 +1,228 @@
+version: "1.0"
+
+institutional_operating_system:
+
+  institutional_memory:
+
+    metadata:
+      framework: "Legibility Office Institutional Operating System"
+      version: "1.0"
+      owner: "Legibility Office"
+      license: "Apache-2.0"
+
+    mission:
+      "Transform institutional experience into continuously reusable organizational knowledge."
+
+    principles:
+
+      permanence: true
+      traceability: true
+      transparency: true
+      accountability: true
+      knowledge_preservation: true
+      evidence_based_learning: true
+      interoperability: true
+      continuous_improvement: true
+
+    governance_primitives:
+
+      - Knowledge
+      - Evidence
+      - Authority
+      - Trust
+      - Institutional Memory
+      - Accountability
+      - Coordination
+      - Standards
+      - Time
+      - Identity
+
+    memory_layers:
+
+      strategic:
+
+        stores:
+
+          - National Strategies
+          - Institutional Vision
+          - Capability Roadmaps
+
+      policy:
+
+        stores:
+
+          - Policies
+          - Regulations
+          - Frameworks
+          - Standards
+
+      operational:
+
+        stores:
+
+          - Procurement Decisions
+          - Budget Decisions
+          - Contracts
+          - Performance Reviews
+
+      analytical:
+
+        stores:
+
+          - Research
+          - Risk Assessments
+          - Evaluations
+          - Lessons Learned
+
+      digital:
+
+        stores:
+
+          - AI Models
+          - Knowledge Graph
+          - Metadata
+          - Audit Logs
+
+    knowledge_capture:
+
+      capture_decisions: true
+
+      capture_evidence: true
+
+      capture_assumptions: true
+
+      capture_outcomes: true
+
+      capture_failures: true
+
+      capture_successes: true
+
+      capture_recommendations: true
+
+    evidence_management:
+
+      source_required: true
+
+      confidence_score_required: true
+
+      citation_required: true
+
+      version_control_required: true
+
+    institutional_learning:
+
+      after_action_reviews: true
+
+      procurement_reviews: true
+
+      governance_reviews: true
+
+      policy_reviews: true
+
+      continuous_learning: true
+
+    interoperability:
+
+      knowledge_graph_enabled: true
+
+      api_enabled: true
+
+      metadata_standardization: true
+
+      semantic_search: true
+
+      cross_agency_exchange: true
+
+    governance:
+
+      ownership_required: true
+
+      approval_required: true
+
+      audit_required: true
+
+      review_required: true
+
+    retention:
+
+      preserve_policy_history: true
+
+      preserve_contract_history: true
+
+      preserve_ai_history: true
+
+      preserve_governance_history: true
+
+      preserve_research_history: true
+
+    ai_integration:
+
+      model_memory: true
+
+      retrieval_augmented_generation: true
+
+      institutional_context_required: true
+
+      explainability_logs: true
+
+      feedback_capture: true
+
+    security:
+
+      integrity_verification: true
+
+      access_control: true
+
+      tamper_detection: true
+
+      encryption_enabled: true
+
+    monitoring:
+
+      knowledge_quality_dashboard: true
+
+      institutional_learning_dashboard: true
+
+      evidence_dashboard: true
+
+      governance_dashboard: true
+
+    capability_thresholds:
+
+      knowledge_quality: 90
+
+      evidence_quality: 90
+
+      traceability: 95
+
+      interoperability: 90
+
+      institutional_learning: 90
+
+    review_cycle:
+
+      monthly_updates: true
+
+      quarterly_validation: true
+
+      annual_architecture_review: true
+
+      continuous_knowledge_capture: true
+
+    success_metrics:
+
+      institutional_memory_quality
+
+      evidence_integrity
+
+      knowledge_reuse
+
+      decision_traceability
+
+      organizational_learning
+
+      institutional_resilience
+
+      governance_continuity
+
+      public_trust
