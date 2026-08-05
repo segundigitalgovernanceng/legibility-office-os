@@ -1,0 +1,47 @@
+atasets/
+└── governance-signals.csv
+Country,Institution,SignalCategory,Signal,Status,Severity,Trend,Source,LastUpdated
+Nigeria,Ministry of Finance,Fiscal Governance,Budget Execution Delay,Warning,Medium,Stable,Audit Report,2026-01-15
+Nigeria,Bureau of Public Procurement,Procurement,Competitive Tender Rate Below Target,Warning,Medium,Improving,Procurement Dashboard,2026-01-15
+Nigeria,National Identity Authority,DPI,Digital Identity Coverage,Positive,Low,Improving,DPI Dashboard,2026-01-15
+Kenya,National Treasury,Fiscal Governance,Revenue Performance Above Target,Positive,Low,Improving,Treasury Report,2026-01-15
+Kenya,Public Procurement Authority,Procurement,Supplier Participation Increasing,Positive,Low,Improving,Procurement Portal,2026-01-15
+Rwanda,Ministry of ICT,Digital Governance,Interoperability Compliance,Positive,Low,Stable,DPI Observatory,2026-01-15
+Rwanda,Office of the Prime Minister,Institutional Capability,Cross-Agency Coordination,Positive,Low,Improving,Government Performance Report,2026-01-15
+Ghana,Public Procurement Authority,Procurement,Contract Delivery Delays,Warning,Medium,Stable,Procurement Review,2026-01-15
+South Africa,National Treasury,Risk Governance,Fraud Detection Alerts,Warning,High,Increasing,Risk Dashboard,2026-01-15
+South Africa,Department of Home Affairs,DPI,Identity Verification Success Rate,Positive,Low,Stable,DPI Dashboard,2026-01-15
+Egypt,Ministry of Communications,AI Governance,AI Policy Implementation,Positive,Low,Improving,National AI Strategy,2026-01-15
+Ethiopia,Civil Service Commission,Institutional Memory,Knowledge Retention Gap,Warning,Medium,Stable,Capability Assessment,2026-01-15
+Morocco,Digital Development Agency,Digital Governance,Open API Adoption,Positive,Low,Improving,Digital Government Report,2026-01-15
+Botswana,Office of the Auditor General,Governance,Audit Compliance Rate,Positive,Low,Stable,Annual Audit Report,2026-01-15
+Uganda,Ministry of Health,Public Service,Health Service Backlog,Warning,Medium,Improving,Service Delivery Dashboard,2026-01-15
+Senegal,Procurement Regulatory Authority,Procurement,Procurement Transparency Index,Positive,Low,Improving,Open Contracting Portal,2026-01-15
+Côte d'Ivoire,Ministry of Economy,Financial Governance,Public Debt Monitoring,Warning,Medium,Stable,Fiscal Report,2026-01-15
+Cameroon,Anti-Corruption Commission,Integrity Governance,Integrity Complaints,Warning,High,Increasing,Integrity Observatory,2026-01-15
+DR Congo,Ministry of Planning,Institutional Capability,Project Coordination Weakness,Critical,High,Deteriorating,Institutional Review,2026-01-15
+Namibia,Prime Minister's Office,Governance,Whole-of-Government Coordination,Positive,Low,Improving,Performance Review,2026-01-15
+Column definitions
+Column	Description
+Country	Country name
+Institution	Reporting institution
+SignalCategory	Governance domain (Fiscal, Procurement, AI, DPI, etc.)
+Signal	Specific governance indicator or event
+Status	Positive, Warning, Critical
+Severity	Low, Medium, High
+Trend	Improving, Stable, Increasing, Deteriorating
+Source	Origin of the signal
+LastUpdated	Date of latest observation
+Purpose
+
+This dataset represents Institutional Governance Signals—observable indicators that reflect the health, performance, and trajectory of governance systems.
+
+Typical uses include:
+
+Governance observatories
+Institutional health dashboards
+Early warning systems
+AI governance monitoring
+Procurement intelligence
+Institutional resilience analysis
+National capability benchmarking
