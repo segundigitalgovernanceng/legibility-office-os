@@ -1,0 +1,250 @@
+# Ethiopia Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to Ethiopia's governance ecosystem.
+
+It illustrates how governance, procurement, Digital Public Infrastructure (DPI), public finance, institutional coordination, institutional memory, and AI governance combine to transform public investment into long-term national capability.
+
+This document is an illustrative institutional reference architecture.
+
+---
+
+# National Context
+
+Country: Federal Democratic Republic of Ethiopia
+
+Population: ~135 million
+
+Government System: Federal Parliamentary Republic
+
+Administrative Structure
+
+- Federal Government
+- Regional States
+- City Administrations
+- Zones
+- Woredas
+- Kebeles
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Office of the Prime Minister
+- House of Peoples' Representatives
+- Ministry of Planning and Development
+- Federal Civil Service Commission
+
+Institutional Capability
+
+- Strategic Coordination
+- Public Sector Governance
+- Policy Execution
+- Institutional Accountability
+
+---
+
+## Procurement
+
+Examples
+
+- Ethiopian Public Procurement and Property Authority (PPPAA)
+- Federal Procuring Entities
+- Regional Procurement Units
+- Infrastructure Agencies
+
+Capability
+
+- Strategic Procurement
+- Capital Allocation
+- Contract Governance
+- Supplier Performance
+- Infrastructure Delivery
+
+---
+
+## Public Finance
+
+Examples
+
+- Ministry of Finance
+- National Bank of Ethiopia
+- Ethiopian Customs Commission
+- Ethiopian Revenue Authorities
+
+Capability
+
+- Fiscal Governance
+- Budget Coordination
+- Revenue Administration
+- Treasury Operations
+- Public Investment Management
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- Fayda Digital ID
+- Digital Ethiopia Strategy
+- Government Digital Platforms
+- National Payment Systems
+- e-Government Services
+
+Capability
+
+- Digital Identity
+- Authentication
+- Government Interoperability
+- Public Service Delivery
+- Secure Digital Transactions
+
+---
+
+## Institutional Memory
+
+Examples
+
+- National Archives
+- Government Information Systems
+- Administrative Records
+- Digital Knowledge Repositories
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Organizational Learning
+- Policy Continuity
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Risk Intelligence
+- Agricultural Analytics
+- Public Service Automation
+- Infrastructure Monitoring
+- Revenue Administration
+- Development Planning
+
+Governance Requirements
+
+- Human Oversight
+- Explainability
+- Transparency
+- Accountability
+- Continuous Monitoring
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Digital Identity
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+National Capability
+```
+
+---
+
+# Governance Primitives
+
+Ethiopia's IOS depends upon
+
+- Identity
+- Trust
+- Standards
+- Evidence
+- Procurement
+- Coordination
+- Accountability
+- Institutional Memory
+- Capital Allocation
+- Risk
+
+---
+
+# Capability Indicators
+
+Illustrative Metrics
+
+- Procurement Integrity
+- Infrastructure Delivery
+- Budget Execution
+- Governance Quality
+- Digital Service Adoption
+- Institutional Learning
+- Public Trust
+- Digital Public Infrastructure Maturity
+
+---
+
+# Institutional Opportunities
+
+Potential capability improvements
+
+- AI-assisted procurement oversight
+- National institutional knowledge graph
+- Cross-government interoperability
+- Public finance integration
+- Procurement intelligence platform
+- AI governance architecture
+- Digital identity interoperability
+- Institutional capability benchmarking
+
+---
+
+# Example Research Questions
+
+- How can procurement strengthen Ethiopia's industrial transformation?
+
+- How can Digital Public Infrastructure improve federal and regional coordination?
+
+- What institutional architecture best supports long-term infrastructure development?
+
+- How should AI governance evolve within Ethiopian public institutions?
+
+- How can institutional memory strengthen policy continuity across development plans?
+
+---
+
+# Future Work
+
+Future releases may include
+
+- Institutional capability maps
+- Procurement workflows
+- Governance dashboards
+- AI governance implementation guides
+- Digital Public Infrastructure architecture
+- Machine-readable institutional models
+- n8n institutional automation workflows
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
