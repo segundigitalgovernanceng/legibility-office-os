@@ -1,0 +1,148 @@
+research/
+└── papers/
+    ├── README.md
+    │
+    ├── governance-inheritance/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── abstract.md
+    │   ├── figures/
+    │   ├── tables/
+    │   ├── references.bib
+    │   ├── supplementary/
+    │   └── journal-submission/
+    │
+    ├── institutional-operating-system/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   ├── tables/
+    │   ├── references.bib
+    │   └── journal-submission/
+    │
+    ├── procurement-capability/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   ├── references.bib
+    │   └── datasets/
+    │
+    ├── digital-public-infrastructure/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   ├── references.bib
+    │   └── case-studies/
+    │
+    ├── institutional-memory/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   ├── references.bib
+    │   └── datasets/
+    │
+    ├── coordination-architecture/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   └── references.bib
+    │
+    ├── ai-governance/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   ├── references.bib
+    │   └── policy-notes/
+    │
+    ├── institutional-physics/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── mathematical-models/
+    │   ├── figures/
+    │   └── references.bib
+    │
+    ├── institutional-intelligence/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   ├── figures/
+    │   └── references.bib
+    │
+    ├── digital-state-capability/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   └── references.bib
+    │
+    ├── procurement-intelligence/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   └── references.bib
+    │
+    ├── civilization-intelligence/
+    │   ├── README.md
+    │   ├── manuscript.md
+    │   └── references.bib
+    │
+    └── publication-pipeline.md
+
+research/papers/README.md
+# Legibility Office Research Papers
+
+## Purpose
+
+This directory contains the core academic publications of the Legibility Office Institutional Operating System (IOS) research programme.
+
+Each paper contributes to a broader research agenda focused on institutional capability, governance architecture, procurement, Digital Public Infrastructure, AI governance, and state competitiveness.
+
+---
+
+## Current Research Programme
+
+### Published / Under Review
+
+- Governance Inheritance
+- Institutional Operating System
+
+---
+
+### In Development
+
+- Procurement Capability
+- Digital Public Infrastructure
+- Institutional Memory
+- Coordination Architecture
+- AI Governance
+- Institutional Physics
+- Institutional Intelligence
+- Civilization Intelligence
+
+---
+
+## Standard Paper Structure
+
+Each paper contains:
+
+- Abstract
+- Manuscript
+- Figures
+- Tables
+- References
+- Supplementary Material
+- Journal Submission Files
+
+---
+
+## Target Journals
+
+- Government Information Quarterly
+- Public Administration Review
+- Public Management Review
+- Information Polity
+- Digital Government: Research and Practice
+- Policy & Internet
+- Journal of Public Administration Research and Theory
+
+---
+
+## Vision
+
+To build the world's largest open research library on Institutional Operating Systems.
