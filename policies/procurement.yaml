@@ -1,0 +1,220 @@
+version: "1.0"
+
+institutional_operating_system:
+
+  procurement:
+
+    metadata:
+      framework: "Legibility Office Institutional Operating System"
+      version: "1.0"
+      owner: "Legibility Office"
+      license: "Apache-2.0"
+
+    mission:
+      "Transform procurement into a strategic institutional capability that allocates capital transparently, efficiently, and accountably."
+
+    guiding_principles:
+
+      transparency: true
+      competition: true
+      accountability: true
+      value_for_money: true
+      institutional_memory: true
+      supplier_fairness: true
+      interoperability: true
+      evidence_based_procurement: true
+      lifecycle_management: true
+
+    procurement_primitives:
+
+      - Planning
+      - Budget
+      - Demand
+      - Competition
+      - Evaluation
+      - Contract
+      - Performance
+      - Evidence
+      - Trust
+      - Accountability
+      - Institutional Memory
+      - Risk
+
+    procurement_lifecycle:
+
+      planning:
+
+        required:
+          - Needs Assessment
+          - Market Research
+          - Risk Analysis
+          - Budget Approval
+
+      tendering:
+
+        required:
+          - Open Advertisement
+          - Standard Documents
+          - Public Access
+          - Digital Submission
+
+      evaluation:
+
+        required:
+          - Independent Committee
+          - Transparent Criteria
+          - Audit Trail
+          - Evidence Recording
+
+      award:
+
+        required:
+          - Value for Money
+          - Governance Approval
+          - Contract Publication
+
+      contract_management:
+
+        required:
+          - Milestone Monitoring
+          - Supplier Performance
+          - Cost Tracking
+          - Change Management
+
+      monitoring:
+
+        required:
+          - Continuous Audit
+          - Performance Review
+          - Institutional Learning
+
+      closeout:
+
+        required:
+          - Final Evaluation
+          - Lessons Learned
+          - Institutional Memory Update
+
+    governance:
+
+      segregation_of_duties: true
+
+      dual_approval_required: true
+
+      digital_signature_required: true
+
+      audit_trail_required: true
+
+      conflict_of_interest_declaration: true
+
+    supplier_management:
+
+      supplier_registration: true
+
+      supplier_risk_assessment: true
+
+      supplier_performance_monitoring: true
+
+      supplier_history_repository: true
+
+      blacklisting_policy: true
+
+    transparency:
+
+      public_tender_portal: true
+
+      contract_publication: true
+
+      award_publication: true
+
+      procurement_dashboard: true
+
+      open_data_enabled: true
+
+    institutional_memory:
+
+      capture_every_decision: true
+
+      preserve_evaluation_reports: true
+
+      preserve_contract_history: true
+
+      preserve_supplier_history: true
+
+      update_knowledge_graph: true
+
+    interoperability:
+
+      api_enabled: true
+
+      digital_identity_integration: true
+
+      digital_payments_integration: true
+
+      public_finance_integration: true
+
+      procurement_data_standardization: true
+
+    capability_thresholds:
+
+      procurement_capability: 80
+
+      governance_capability: 75
+
+      coordination_capability: 75
+
+      supplier_management: 80
+
+      transparency_index: 85
+
+    ai_governance:
+
+      human_review_required: true
+
+      explainable_recommendations: true
+
+      procurement_bias_monitoring: true
+
+      audit_logging: true
+
+      institutional_memory_update: true
+
+    monitoring:
+
+      procurement_dashboard: true
+
+      supplier_dashboard: true
+
+      contract_dashboard: true
+
+      performance_dashboard: true
+
+      institutional_learning_dashboard: true
+
+    review_cycle:
+
+      monthly_operations: true
+
+      quarterly_audit: true
+
+      annual_policy_review: true
+
+      continuous_learning: true
+
+    success_metrics:
+
+      procurement_integrity
+
+      supplier_performance
+
+      contract_delivery
+
+      procurement_cycle_time
+
+      transparency_index
+
+      value_for_money
+
+      institutional_capability
+
+      public_trust
