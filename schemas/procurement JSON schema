@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/segundigitalgovernanceng/legibility-office-os/schemas/procurement.json",
+  "title": "Legibility Office Procurement Schema",
+  "description": "Canonical procurement architecture for the Institutional Operating System (IOS).",
+  "type": "object",
+  "required": [
+    "procurement_id",
+    "institution",
+    "country",
+    "procurement_stage",
+    "procurement_primitives",
+    "contract",
+    "supplier",
+    "performance",
+    "capability_score",
+    "status"
+  ],
+  "properties": {
+    "procurement_id": {
+      "type": "string",
+      "description": "Unique procurement record identifier."
+    },
+    "institution": {
+      "type": "string",
+      "description": "Institution responsible for procurement."
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or jurisdiction."
+    },
+    "procurement_stage": {
+      "type": "string",
+      "enum": [
+        "Planning",
+        "Budgeting",
+        "Tendering",
+        "Evaluation",
+        "Award",
+        "Contract Management",
+        "Monitoring",
+        "Closeout"
+      ]
+    },
+    "procurement_primitives": {
+      "type": "array",
+      "description": "Core procurement primitives.",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Transparency",
+          "Competition",
+          "Value for Money",
+          "Accountability",
+          "Integrity",
+          "Risk Management",
+          "Supplier Trust",
+          "Evidence",
+          "Institutional Memory",
+          "Performance",
+          "Standards",
+          "Interoperability"
+        ]
+      }
+    },
+    "contract": {
+      "type": "object",
+      "properties": {
+        "contract_id": {
+          "type": "string"
+        },
+        "contract_type": {
+          "type": "string"
+        },
+        "contract_value": {
+          "type": "number"
+        },
+        "currency": {
+          "type": "string"
+        },
+        "duration_months": {
+          "type": "integer"
+        }
+      }
+    },
+    "supplier": {
+      "type": "object",
+      "properties": {
+        "supplier_name": {
+          "type": "string"
+        },
+        "supplier_type": {
+          "type": "string",
+          "enum": [
+            "SME",
+            "Large Enterprise",
+            "State-Owned Enterprise",
+            "International",
+            "Consortium"
+          ]
+        },
+        "country": {
+          "type": "string"
+        }
+      }
+    },
+    "performance": {
+      "type": "object",
+      "properties": {
+        "delivery_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "cost_variance": {
+          "type": "number"
+        },
+        "schedule_variance": {
+          "type": "number"
+        },
+        "quality_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "capability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Procurement capability maturity score."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Planned",
+        "Active",
+        "Completed",
+        "Suspended",
+        "Cancelled"
+      ]
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
