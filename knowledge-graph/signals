@@ -1,0 +1,303 @@
+Create:
+
+knowledge-graph/
+└── signals/
+    ├── README.md
+    ├── governance-signals.json
+    ├── procurement-signals.json
+    ├── capability-signals.json
+    ├── dpi-signals.json
+    ├── ai-governance-signals.json
+    ├── institutional-memory-signals.json
+    ├── interoperability-signals.json
+    ├── finance-signals.json
+    ├── risk-signals.json
+    ├── public-trust-signals.json
+    ├── competitiveness-signals.json
+    ├── ontology.json
+    └── signal-schema.json
+README.md
+# Institutional Signals
+
+Institutional Signals represent observable events, conditions, metrics, or trends that describe the operational health of institutions within the Legibility Office Institutional Operating System (IOS).
+
+Signals are dynamic.
+
+Unlike entities (things) and relationships (connections), signals represent **institutional state**.
+
+---
+
+## Signal Domains
+
+- Governance
+- Procurement
+- Capability
+- Digital Public Infrastructure
+- AI Governance
+- Institutional Memory
+- Interoperability
+- Finance
+- Risk
+- Public Trust
+- Competitiveness
+
+---
+
+## Signal Lifecycle
+
+```
+Observation
+
+↓
+
+Signal
+
+↓
+
+Assessment
+
+↓
+
+Recommendation
+
+↓
+
+Institutional Learning
+```
+governance-signals.json
+[
+  {
+    "signal": "Budget Delay",
+    "status": "warning",
+    "severity": "medium"
+  },
+  {
+    "signal": "Audit Compliance",
+    "status": "positive",
+    "severity": "low"
+  },
+  {
+    "signal": "Transparency Improvement",
+    "status": "positive",
+    "severity": "low"
+  }
+]
+procurement-signals.json
+[
+  {
+    "signal": "Supplier Concentration",
+    "status": "warning"
+  },
+  {
+    "signal": "Competitive Tender Rate",
+    "status": "positive"
+  },
+  {
+    "signal": "Contract Delay",
+    "status": "warning"
+  }
+]
+capability-signals.json
+[
+  {
+    "signal": "Leadership Capacity",
+    "status": "positive"
+  },
+  {
+    "signal": "Digital Skills Gap",
+    "status": "warning"
+  },
+  {
+    "signal": "Training Completion",
+    "status": "positive"
+  }
+]
+dpi-signals.json
+[
+  {
+    "signal": "Identity Coverage",
+    "status": "positive"
+  },
+  {
+    "signal": "API Availability",
+    "status": "positive"
+  },
+  {
+    "signal": "Interoperability Failure",
+    "status": "critical"
+  }
+]
+ai-governance-signals.json
+[
+  {
+    "signal": "Human Oversight",
+    "status": "positive"
+  },
+  {
+    "signal": "Model Drift",
+    "status": "warning"
+  },
+  {
+    "signal": "Bias Detection",
+    "status": "critical"
+  }
+]
+institutional-memory-signals.json
+[
+  {
+    "signal": "Knowledge Capture",
+    "status": "positive"
+  },
+  {
+    "signal": "Documentation Gap",
+    "status": "warning"
+  },
+  {
+    "signal": "Lessons Learned",
+    "status": "positive"
+  }
+]
+interoperability-signals.json
+[
+  {
+    "signal": "API Failure",
+    "status": "critical"
+  },
+  {
+    "signal": "Data Exchange Success",
+    "status": "positive"
+  }
+]
+finance-signals.json
+[
+  {
+    "signal": "Budget Execution",
+    "status": "positive"
+  },
+  {
+    "signal": "Revenue Shortfall",
+    "status": "warning"
+  }
+]
+risk-signals.json
+[
+  {
+    "signal": "Fraud Alert",
+    "status": "critical"
+  },
+  {
+    "signal": "Cyber Incident",
+    "status": "critical"
+  },
+  {
+    "signal": "Operational Risk",
+    "status": "warning"
+  }
+]
+public-trust-signals.json
+[
+  {
+    "signal": "Citizen Satisfaction",
+    "status": "positive"
+  },
+  {
+    "signal": "Complaint Spike",
+    "status": "warning"
+  }
+]
+competitiveness-signals.json
+[
+  {
+    "signal": "Innovation Growth",
+    "status": "positive"
+  },
+  {
+    "signal": "Institutional Bottleneck",
+    "status": "warning"
+  }
+]
+ontology.json
+{
+  "signalCategories": [
+    "Governance",
+    "Procurement",
+    "Capability",
+    "DPI",
+    "AI",
+    "InstitutionalMemory",
+    "Interoperability",
+    "Finance",
+    "Risk",
+    "PublicTrust",
+    "Competitiveness"
+  ]
+}
+signal-schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institutional Signal",
+  "type": "object",
+  "properties": {
+    "signal": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "positive",
+        "warning",
+        "critical"
+      ]
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "trend": {
+      "type": "string",
+      "enum": [
+        "improving",
+        "stable",
+        "declining"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "signal",
+    "status"
+  ]
+}
+
+
+The semantic model is now complete:
+
+Ontology
+    │
+    ├── Entities
+    ├── Relationships
+    └── Signals
+            │
+            ▼
+Institutional Knowledge Graph
+            │
+            ▼
+Institutional Intelligence
+            │
+            ▼
+Early Warning
+            │
+            ▼
+Governance Analytics
+            │
+            ▼
+AI Decision Support
+
+With entities, relationships, and signals, your repository now models not only what institutions are and how they connect, but also how they are performing over time. This enables longitudinal monitoring, governance observatories, digital twins of institutions, and predictive institutional analytics.
