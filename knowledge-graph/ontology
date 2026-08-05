@@ -1,0 +1,445 @@
+Create:
+
+knowledge-graph/
+└── ontology/
+    ├── README.md
+    ├── institutional-ontology.json
+    ├── governance.owl
+    ├── governance.ttl
+    ├── governance.rdf
+    ├── classes.json
+    ├── properties.json
+    ├── datatypes.json
+    ├── constraints.json
+    ├── namespaces.json
+    ├── taxonomy.json
+    ├── upper-ontology.json
+    ├── ios-ontology.json
+    ├── competency-questions.md
+    ├── examples/
+    │   ├── nigeria.ttl
+    │   ├── kenya.ttl
+    │   ├── procurement.ttl
+    │   └── governance.ttl
+    └── sparql/
+        ├── institutions.rq
+        ├── governance.rq
+        ├── procurement.rq
+        ├── capability.rq
+        ├── dpi.rq
+        ├── ai.rq
+        └── risk.rq
+README.md
+# Institutional Ontology
+
+The Institutional Ontology is the semantic foundation of the Legibility Office Institutional Operating System (IOS).
+
+It defines the vocabulary used throughout the repository.
+
+Everything else builds on the ontology.
+
+```
+Ontology
+
+↓
+
+Entities
+
+↓
+
+Relationships
+
+↓
+
+Signals
+
+↓
+
+Patterns
+
+↓
+
+Knowledge Graph
+
+↓
+
+Institutional Intelligence
+```
+
+---
+
+## Domains
+
+- Governance
+- Procurement
+- Digital Public Infrastructure
+- Capability
+- AI Governance
+- Institutional Memory
+- Finance
+- Risk
+- Standards
+- Institutions
+
+---
+
+## Supported Standards
+
+- RDF
+
+- OWL
+
+- Turtle
+
+- JSON-LD (future)
+
+- SKOS (future)
+
+- SHACL (future)
+
+---
+
+## Purpose
+
+Provide semantic interoperability for:
+
+- Knowledge Graphs
+- AI Systems
+- Policy Intelligence
+- Institutional Memory
+- Semantic Search
+- Digital Twins
+- Governance Analytics
+institutional-ontology.json
+{
+  "ontology":"Legibility Office Institutional Ontology",
+
+  "version":"1.0",
+
+  "domains":[
+
+    "Governance",
+
+    "Procurement",
+
+    "Capability",
+
+    "Digital Public Infrastructure",
+
+    "Institutional Memory",
+
+    "AI Governance",
+
+    "Risk",
+
+    "Finance"
+
+  ]
+}
+classes.json
+{
+  "classes":[
+
+    "Country",
+
+    "Institution",
+
+    "Ministry",
+
+    "Agency",
+
+    "Regulator",
+
+    "Framework",
+
+    "Policy",
+
+    "Standard",
+
+    "Capability",
+
+    "KnowledgeAsset",
+
+    "Dataset",
+
+    "DPI",
+
+    "AISystem",
+
+    "Supplier",
+
+    "Risk"
+
+  ]
+}
+properties.json
+{
+  "properties":[
+
+    "governs",
+
+    "implements",
+
+    "owns",
+
+    "depends_on",
+
+    "coordinates",
+
+    "funds",
+
+    "regulates",
+
+    "shares_data_with",
+
+    "strengthens",
+
+    "supports",
+
+    "inherits_from",
+
+    "monitors"
+
+  ]
+}
+datatypes.json
+{
+  "datatypes":[
+
+    "string",
+
+    "integer",
+
+    "number",
+
+    "boolean",
+
+    "date",
+
+    "datetime",
+
+    "uri"
+
+  ]
+}
+constraints.json
+{
+  "constraints":[
+
+    "Institution must belong to one Country",
+
+    "Agency reports to Institution",
+
+    "Capability belongs to Institution",
+
+    "Framework implements Policy",
+
+    "Policy references Standard"
+
+  ]
+}
+namespaces.json
+{
+  "namespaces":{
+
+    "ios":"https://legibilityoffice.org/ios/",
+
+    "gov":"https://legibilityoffice.org/governance/",
+
+    "proc":"https://legibilityoffice.org/procurement/",
+
+    "dpi":"https://legibilityoffice.org/dpi/",
+
+    "cap":"https://legibilityoffice.org/capability/"
+
+  }
+}
+taxonomy.json
+{
+  "Governance":[
+
+    "Framework",
+
+    "Policy",
+
+    "Standard"
+
+  ],
+
+  "Institutions":[
+
+    "Country",
+
+    "Institution",
+
+    "Agency",
+
+    "Regulator"
+
+  ],
+
+  "Capabilities":[
+
+    "Capability",
+
+    "Institutional Memory"
+
+  ],
+
+  "Infrastructure":[
+
+    "Identity",
+
+    "Payments",
+
+    "Data Exchange",
+
+    "Interoperability"
+
+  ]
+}
+upper-ontology.json
+{
+  "Thing":[
+
+    "Institution",
+
+    "Capability",
+
+    "Framework",
+
+    "Policy",
+
+    "KnowledgeAsset"
+
+  ]
+}
+ios-ontology.json
+{
+  "InstitutionalOperatingSystem":{
+
+    "Entities":true,
+
+    "Relationships":true,
+
+    "Signals":true,
+
+    "Patterns":true
+
+  }
+}
+governance.owl
+<owl:Ontology rdf:about="https://legibilityoffice.org/ontology"/>
+governance.ttl
+@prefix ios: <https://legibilityoffice.org/ios/> .
+governance.rdf
+<rdf:RDF></rdf:RDF>
+competency-questions.md
+# Competency Questions
+
+The ontology should answer questions like:
+
+- Which institution governs procurement?
+
+- Which ministry owns Digital Identity?
+
+- Which policies implement AI Governance?
+
+- Which institutions share data?
+
+- Which capability strengthens procurement?
+
+- Which standards apply to public procurement?
+
+- Which risks threaten institutional capability?
+
+- Which institutions depend on Digital Public Infrastructure?
+
+- Which AI systems require human oversight?
+SPARQL Examples
+institutions.rq
+SELECT ?institution
+WHERE {
+
+?institution rdf:type ios:Institution .
+
+}
+governance.rq
+SELECT ?framework
+WHERE {
+
+?framework rdf:type ios:Framework .
+
+}
+procurement.rq
+SELECT ?procurement
+WHERE {
+
+?procurement rdf:type ios:Procurement .
+
+}
+capability.rq
+SELECT ?capability
+WHERE {
+
+?capability rdf:type ios:Capability .
+
+}
+dpi.rq
+SELECT ?dpi
+WHERE {
+
+?dpi rdf:type ios:DPI .
+
+}
+ai.rq
+SELECT ?ai
+WHERE {
+
+?ai rdf:type ios:AISystem .
+
+}
+risk.rq
+SELECT ?risk
+WHERE {
+
+?risk rdf:type ios:Risk .
+
+}
+The ontology is the constitutional layer of the entire platform.
+
+With this addition, the IOS now has a complete semantic architecture:
+
+Institutional Ontology
+        │
+        ▼
+Entities
+        │
+        ▼
+Relationships
+        │
+        ▼
+Signals
+        │
+        ▼
+Patterns
+        │
+        ▼
+Knowledge Graph
+        │
+        ▼
+APIs
+        │
+        ▼
+Policy Parser
+IOS Validator
+Governance Score
+Institution Mapper
+        │
+        ▼
+Institutional Intelligence
+        │
+        ▼
+AI Governance Platform
+
+This progression mirrors mature enterprise knowledge systems. The ontology provides a stable semantic contract that allows every framework, dataset, API, graph, and AI capability in the repository to speak the same language, enabling long-term interoperability and extensibility.
