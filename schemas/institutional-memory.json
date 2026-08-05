@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/segundigitalgovernanceng/legibility-office-os/schemas/institutional-memory.json",
+  "title": "Legibility Office Institutional Memory Schema",
+  "description": "Canonical schema for institutional memory, evidence, decisions, learning, and knowledge preservation within the Institutional Operating System (IOS).",
+  "type": "object",
+  "required": [
+    "memory_id",
+    "institution",
+    "country",
+    "memory_type",
+    "knowledge_asset",
+    "source",
+    "confidence",
+    "status"
+  ],
+  "properties": {
+    "memory_id": {
+      "type": "string",
+      "description": "Unique institutional memory identifier."
+    },
+
+    "institution": {
+      "type": "string"
+    },
+
+    "country": {
+      "type": "string"
+    },
+
+    "memory_type": {
+      "type": "string",
+      "enum": [
+        "Policy",
+        "Decision",
+        "Procurement",
+        "Evidence",
+        "Audit",
+        "Research",
+        "Lesson Learned",
+        "Risk",
+        "Governance",
+        "Digital Public Infrastructure",
+        "Capability",
+        "Historical Record"
+      ]
+    },
+
+    "knowledge_asset": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "category": {
+          "type": "string"
+        }
+      }
+    },
+
+    "source": {
+      "type": "object",
+      "properties": {
+        "organization": {
+          "type": "string"
+        },
+        "document": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publication_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+
+    "institutional_primitives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Authority",
+          "Identity",
+          "Trust",
+          "Evidence",
+          "Coordination",
+          "Standards",
+          "Institutional Memory",
+          "Knowledge",
+          "Accountability",
+          "Interoperability",
+          "Risk",
+          "Time"
+        ]
+      }
+    },
+
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "related_memory_id": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": [
+              "Supports",
+              "Contradicts",
+              "Updates",
+              "Supersedes",
+              "Depends On",
+              "Extends",
+              "Duplicates"
+            ]
+          }
+        }
+      }
+    },
+
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+
+    "institutional_value": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+
+    "status": {
+      "type": "string",
+      "enum": [
+        "Draft",
+        "Validated",
+        "Operational",
+        "Archived",
+        "Deprecated"
+      ]
+    },
+
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "owner": {
+      "type": "string"
+    },
+
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
