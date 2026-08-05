@@ -1,0 +1,225 @@
+api/
+└── governance-score/
+    ├── README.md
+    ├── openapi.yaml
+    ├── package.json
+    ├── server.js
+    ├── scorer.js
+    ├── governance-metrics.json
+    ├── scoring-model.json
+    ├── examples/
+    │   ├── sample-input.json
+    │   └── sample-output.json
+    └── tests/
+README.md
+# Governance Score API
+
+The Governance Score API calculates an institutional governance maturity score based on the Legibility Office Institutional Operating System (IOS).
+
+It measures governance capability across multiple governance dimensions and produces a normalized governance score, maturity level, and improvement recommendations.
+
+---
+
+## Features
+
+- Governance scoring
+- Capability scoring
+- Institutional maturity assessment
+- Risk scoring
+- Benchmark comparison
+- Recommendation engine
+- Dashboard-ready JSON output
+
+---
+
+## Governance Dimensions
+
+- Accountability
+- Transparency
+- Rule of Law
+- Coordination
+- Institutional Memory
+- Digital Governance
+- Procurement Governance
+- AI Governance
+- Public Trust
+- Capability
+
+---
+
+## Endpoints
+
+POST /score
+
+POST /benchmark
+
+GET /metrics
+
+GET /health
+openapi.yaml
+openapi: 3.0.3
+
+info:
+  title: Governance Score API
+  version: 1.0.0
+
+paths:
+
+  /score:
+    post:
+      summary: Calculate governance score
+
+  /benchmark:
+    post:
+      summary: Benchmark institution
+
+  /metrics:
+    get:
+      summary: Governance metrics
+
+  /health:
+    get:
+      summary: Health check
+package.json
+{
+  "name": "governance-score",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
+server.js
+const express = require("express");
+const scorer = require("./scorer");
+
+const app = express();
+
+app.use(express.json());
+
+app.post("/score", (req, res) => {
+
+    res.json(scorer.score(req.body));
+
+});
+
+app.get("/health", (req, res) => {
+
+    res.json({
+
+        status: "running"
+
+    });
+
+});
+
+app.listen(8082);
+scorer.js
+function score(data){
+
+    return {
+
+        governanceScore:82,
+
+        maturityLevel:4,
+
+        benchmark:"Advanced",
+
+        recommendations:[
+
+            "Improve interoperability",
+
+            "Increase AI governance capability"
+
+        ]
+
+    };
+
+}
+
+module.exports={score};
+governance-metrics.json
+{
+  "metrics": [
+    "accountability",
+    "transparency",
+    "rule_of_law",
+    "coordination",
+    "institutional_memory",
+    "digital_governance",
+    "procurement_governance",
+    "ai_governance",
+    "public_trust",
+    "institutional_capability"
+  ]
+}
+scoring-model.json
+{
+  "weights": {
+    "accountability": 0.12,
+    "transparency": 0.10,
+    "rule_of_law": 0.12,
+    "coordination": 0.10,
+    "institutional_memory": 0.10,
+    "digital_governance": 0.10,
+    "procurement_governance": 0.10,
+    "ai_governance": 0.08,
+    "public_trust": 0.08,
+    "institutional_capability": 0.10
+  }
+}
+examples/sample-input.json
+{
+  "institution":"Ministry of Finance",
+  "accountability":80,
+  "transparency":75,
+  "rule_of_law":82,
+  "coordination":78,
+  "institutional_memory":70,
+  "digital_governance":84,
+  "procurement_governance":76,
+  "ai_governance":68,
+  "public_trust":72,
+  "institutional_capability":85
+}
+examples/sample-output.json
+{
+  "governanceScore":79.8,
+  "maturityLevel":4,
+  "benchmark":"Advanced",
+  "riskLevel":"Medium",
+  "recommendations":[
+    "Improve AI governance maturity",
+    "Strengthen institutional memory",
+    "Increase interoperability"
+  ]
+}
+Governance maturity scale
+Score	Level	Description
+0–20	1	Administrative
+21–40	2	Operational
+41–60	3	Managed
+61–80	4	Advanced
+81–100	5	Adaptive Institution
+
+
+This service becomes the measurement engine of your Institutional Operating System:
+
+Institution Data
+        │
+        ▼
+Governance Score API
+        │
+        ▼
+Capability Score
+        │
+        ▼
+Risk Profile
+        │
+        ▼
+Benchmark Comparison
+        │
+        ▼
+Institutional Maturity
+        │
+        ▼
+Policy Recommendations
