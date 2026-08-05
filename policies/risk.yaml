@@ -1,0 +1,251 @@
+version: "1.0"
+
+institutional_operating_system:
+
+  risk_management:
+
+    metadata:
+      framework: "Legibility Office Institutional Operating System"
+      version: "1.0"
+      owner: "Legibility Office"
+      license: "Apache-2.0"
+
+    mission:
+      "Strengthen institutional resilience through systematic identification, assessment, mitigation, monitoring, and continuous learning from risk."
+
+    principles:
+
+      proactive: true
+      evidence_based: true
+      transparent: true
+      accountable: true
+      adaptive: true
+      interoperable: true
+      institutional_memory: true
+      continuous_monitoring: true
+
+    governance_primitives:
+
+      - Risk
+      - Trust
+      - Evidence
+      - Accountability
+      - Authority
+      - Institutional Memory
+      - Coordination
+      - Standards
+      - Knowledge
+      - Time
+
+    risk_categories:
+
+      strategic:
+
+        - Policy Failure
+        - Governance Failure
+        - Institutional Misalignment
+        - Capability Gap
+
+      operational:
+
+        - Procurement Failure
+        - Service Disruption
+        - Project Delay
+        - Human Error
+
+      financial:
+
+        - Budget Overrun
+        - Fraud
+        - Revenue Loss
+        - Cost Escalation
+
+      digital:
+
+        - Cybersecurity
+        - Data Breach
+        - AI Failure
+        - Infrastructure Outage
+
+      legal:
+
+        - Regulatory Noncompliance
+        - Contractual Disputes
+        - Litigation
+
+      reputational:
+
+        - Public Trust Loss
+        - Institutional Credibility
+        - Political Risk
+
+    risk_process:
+
+      identify:
+
+        required:
+          - Risk Register
+          - Risk Owner
+          - Source Identification
+
+      assess:
+
+        required:
+          - Likelihood
+          - Impact
+          - Risk Score
+          - Evidence
+
+      prioritize:
+
+        methodology:
+          "Likelihood × Impact"
+
+      mitigate:
+
+        required:
+          - Control Measures
+          - Responsible Institution
+          - Timeline
+          - Resources
+
+      monitor:
+
+        required:
+          - Key Risk Indicators
+          - Dashboard
+          - Alerts
+          - Reviews
+
+      review:
+
+        required:
+          - Lessons Learned
+          - Institutional Memory Update
+          - Policy Improvement
+
+    risk_levels:
+
+      low:
+        score: "1-4"
+
+      medium:
+        score: "5-9"
+
+      high:
+        score: "10-16"
+
+      critical:
+        score: "17-25"
+
+    governance:
+
+      executive_accountability: true
+
+      audit_committee_required: true
+
+      risk_owner_required: true
+
+      evidence_required: true
+
+      approval_required: true
+
+    institutional_memory:
+
+      preserve_risk_register: true
+
+      preserve_incident_history: true
+
+      preserve_lessons_learned: true
+
+      preserve_controls: true
+
+      update_knowledge_graph: true
+
+    interoperability:
+
+      governance_integration: true
+
+      procurement_integration: true
+
+      public_finance_integration: true
+
+      digital_public_infrastructure_integration: true
+
+      ai_governance_integration: true
+
+    ai_governance:
+
+      ai_risk_assessment_required: true
+
+      explainability_required: true
+
+      bias_monitoring: true
+
+      model_monitoring: true
+
+      audit_logs_required: true
+
+    resilience:
+
+      business_continuity_plan: true
+
+      disaster_recovery_plan: true
+
+      redundancy_required: true
+
+      institutional_backup: true
+
+    monitoring:
+
+      enterprise_risk_dashboard: true
+
+      institutional_resilience_dashboard: true
+
+      procurement_risk_dashboard: true
+
+      governance_dashboard: true
+
+      ai_risk_dashboard: true
+
+    capability_thresholds:
+
+      risk_management: 90
+
+      institutional_resilience: 90
+
+      governance_integrity: 90
+
+      evidence_quality: 90
+
+      monitoring_quality: 90
+
+    review_cycle:
+
+      weekly_monitoring: true
+
+      monthly_reporting: true
+
+      quarterly_audit: true
+
+      annual_enterprise_review: true
+
+      continuous_learning: true
+
+    success_metrics:
+
+      enterprise_risk_score
+
+      institutional_resilience
+
+      governance_integrity
+
+      procurement_risk
+
+      cyber_resilience
+
+      ai_risk_maturity
+
+      public_trust
+
+      institutional_learning
