@@ -1,0 +1,199 @@
+Procurement Stack
+Procurement as the Institutional Execution Engine
+Diagram Layout
+                     NATIONAL STRATEGY
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Public Policy Priorities│
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Public Finance          │
+                 │ Budget Allocation       │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Procurement Governance  │
+                 │ Laws                    │
+                 │ Regulations             │
+                 │ Oversight               │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Procurement Operations  │
+                 │ Planning                │
+                 │ Tendering               │
+                 │ Contract Award          │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Supplier Ecosystem      │
+                 │ Industry                │
+                 │ SMEs                    │
+                 │ Innovation              │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Project Delivery        │
+                 │ Infrastructure          │
+                 │ Technology              │
+                 │ Services                │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Institutional Outcomes  │
+                 │ Capability              │
+                 │ Productivity            │
+                 │ Public Value            │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Monitoring & Learning   │
+                 │ Audit                   │
+                 │ Performance             │
+                 │ Institutional Memory    │
+                 └─────────────────────────┘
+                            │
+                            └────────────────────────────┐
+                                                         │
+                                                         ▼
+                                             Procurement Governance
+Right-side Panel
+Procurement Primitives
+Transparency
+
+↓
+
+Competition
+
+↓
+
+Value for Money
+
+↓
+
+Fairness
+
+↓
+
+Risk Management
+
+↓
+
+Accountability
+
+↓
+
+Supplier Trust
+
+↓
+
+Performance Measurement
+
+↓
+
+Institutional Memory
+
+↓
+
+Continuous Improvement
+Procurement Capability Loop
+Policy
+
+↓
+
+Budget
+
+↓
+
+Procurement
+
+↓
+
+Delivery
+
+↓
+
+Performance
+
+↓
+
+Evidence
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↺
+Procurement Layers
+Strategic Layer
+National industrial policy
+Economic transformation
+Infrastructure priorities
+Public investment strategy
+Governance Layer
+Procurement law
+Regulatory oversight
+Integrity mechanisms
+Audit institutions
+Operational Layer
+Planning
+Tender design
+Evaluation
+Contract management
+Payment systems
+Market Layer
+Supplier development
+SME participation
+Competition
+Innovation ecosystem
+Capability Layer
+Workforce skills
+Digital procurement
+Data analytics
+Institutional knowledge
+Bottom Footer
+Procurement Stack Principle
+
+Procurement is not a purchasing function.
+
+Procurement is the institutional mechanism through which public finance becomes national capability.
+
+Design Specification
+Style
+World Bank governance architecture
+OECD policy framework
+Clean institutional blueprint
+Colors
+White background
+Navy blue (#163A70)
+Light blue highlights (#EAF2FB)
+Soft gray connectors
+Typography
+IBM Plex Sans
+Inter
+Source Sans Pro
+Suggested Icons
+Layer	Icon
+Strategy	Target
+Finance	Budget/Coins
+Governance	Gavel
+Operations	Clipboard
+Supplier Ecosystem	Network
+Delivery	Factory/Bridge
+Outcomes	Gear
+Learning	Circular arrows
+
+Use simple monochrome line icons.
