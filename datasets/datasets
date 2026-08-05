@@ -1,0 +1,113 @@
+reate the following structure:
+
+datasets/
+├── README.md
+├── governance-indicators.csv
+├── procurement-indicators.csv
+├── institutional-capability-index.csv
+├── digital-public-infrastructure-index.csv
+├── ai-governance-maturity.csv
+├── procurement-risk-register.csv
+├── institutional-memory-metrics.csv
+├── interoperability-index.csv
+├── national-competitiveness-index.csv
+└── public-sector-ai-indicators.csv
+
+
+README.md
+# Legibility Office Datasets
+
+This directory contains sample datasets supporting the Legibility Office Institutional Operating System (IOS).
+
+These datasets are intended for:
+
+- Research
+- Demonstrations
+- AI development
+- Dashboards
+- Public sector analytics
+- Institutional benchmarking
+
+## Available Datasets
+
+- Governance Indicators
+- Procurement Indicators
+- Institutional Capability Index
+- Digital Public Infrastructure Index
+- AI Governance Maturity
+- Procurement Risk Register
+- Institutional Memory Metrics
+- Interoperability Index
+- National Competitiveness Index
+- Public Sector AI Indicators
+
+All datasets are illustrative and released under the Apache 2.0 License unless otherwise specified.
+governance-indicators.csv
+Country,GovernanceScore,Transparency,Accountability,RuleOfLaw,Coordination
+Nigeria,58,55,57,60,54
+Kenya,63,62,64,61,65
+Rwanda,78,80,77,79,81
+Ghana,66,67,65,68,66
+South Africa,71,70,72,69,73
+Egypt,60,58,59,62,61
+Ethiopia,55,54,56,53,57
+procurement-indicators.csv
+Country,OpenTenderRate,AverageCycleDays,SupplierPerformance,DigitalProcurement
+Nigeria,62,45,70,58
+Kenya,71,39,74,68
+Rwanda,88,24,91,87
+Ghana,69,37,73,66
+South Africa,77,31,80,75
+Egypt,65,42,69,61
+Ethiopia,59,48,64,55
+institutional-capability-index.csv
+Institution,CapabilityIndex,MaturityLevel
+Ministry of Finance,78,4
+Procurement Authority,74,4
+Revenue Authority,82,5
+Central Bank,90,5
+Health Ministry,69,3
+Education Ministry,66,3
+digital-public-infrastructure-index.csv
+Country,Identity,Payments,DataExchange,Interoperability,DPIIndex
+Nigeria,72,70,61,58,65
+Kenya,80,84,74,72,78
+Rwanda,91,89,87,86,88
+Ghana,76,75,69,67,72
+South Africa,83,82,77,79,80
+ai-governance-maturity.csv
+Institution,Strategy,Governance,Data,Models,Deployment,Maturity
+Finance Ministry,4,4,3,3,3,3.4
+Revenue Authority,5,5,4,4,4,4.4
+Central Bank,5,5,5,4,4,4.6
+procurement-risk-register.csv
+Risk,Category,Likelihood,Impact,Mitigation
+Vendor Lock-in,Strategic,High,High,Open Standards
+Corruption,Governance,Medium,High,Transparency
+Poor Data,Operational,Medium,Medium,Data Standards
+Cyber Attack,Digital,Medium,High,Security Controls
+Supplier Failure,Operational,Medium,Medium,Due Diligence
+institutional-memory-metrics.csv
+Institution,KnowledgeRetention,Documentation,LessonsLearned,MemoryScore
+Finance Ministry,81,85,78,81
+Central Bank,93,94,91,93
+Revenue Authority,88,87,86,87
+interoperability-index.csv
+Country,APICompliance,DataStandards,SystemIntegration,InteroperabilityScore
+Nigeria,60,58,56,58
+Kenya,73,74,71,73
+Rwanda,89,88,90,89
+Ghana,69,68,70,69
+national-competitiveness-index.csv
+Country,InstitutionalCapability,DPI,Governance,AIReadiness,Competitiveness
+Nigeria,65,65,58,54,61
+Kenya,74,78,63,67,71
+Rwanda,88,88,78,79,83
+Ghana,70,72,66,64,68
+South Africa,80,80,71,76,77
+public-sector-ai-indicators.csv
+Institution,AIProjects,HumanOversight,Explainability,Auditability,Readiness
+Finance Ministry,8,90,82,88,84
+Central Bank,14,95,91,94,92
+Revenue Authority,11,92,86,90,88
+Health Ministry,5,88,80,82,81
