@@ -1,0 +1,352 @@
+# Legibility Office n8n Templates
+
+## Purpose
+
+This directory contains reusable workflow templates that implement the Legibility Office Institutional Operating System (IOS).
+
+Unlike workflows, templates are designed to be imported, configured, and adapted by governments, development finance institutions, researchers, and public sector organizations.
+
+---
+
+# Template Categories
+
+## Institutional Intelligence
+
+- Institutional Comment Engine
+- Policy Analysis
+- Governance Review
+- Procurement Risk Assessment
+
+---
+
+## Public Sector
+
+- Institutional Capability Assessment
+- Digital Public Infrastructure Review
+- AI Governance Assessment
+
+---
+
+## Research
+
+- Research Paper Generator
+- DFI Article Generator
+- Institutional Knowledge Graph
+
+---
+
+## Operations
+
+- Procurement Dashboard
+- Institutional Memory
+- Civilization Intelligence
+
+---
+
+# Technology
+
+Compatible with
+
+- n8n
+- OpenAI
+- PostgreSQL
+- Neo4j
+- GitHub
+- Notion
+- Airtable
+- Supabase
+
+---
+
+## Repository
+
+https://github.com/segundigitalgovernanceng/legibility-office-os
+
+1. institutional-comment-engine.json
+
+Purpose
+
+Government announcement
+
+↓
+
+Signal Classification
+
+↓
+
+Institutional Decode
+
+↓
+
+Governance Primitive Analysis
+
+↓
+
+Comment
+
+↓
+
+Question
+
+↓
+
+Knowledge Graph
+2. governance-review.json
+
+Purpose
+
+Institution
+
+↓
+
+Governance Review
+
+↓
+
+Capability Score
+
+↓
+
+Weakness Detection
+
+↓
+
+Recommendations
+3. procurement-risk-analysis.json
+
+Purpose
+
+Tender
+
+↓
+
+Supplier
+
+↓
+
+Contract
+
+↓
+
+Risk Analysis
+
+↓
+
+Recommendation
+4. policy-analysis.json
+
+Purpose
+
+Policy
+
+↓
+
+Institution
+
+↓
+
+Execution Constraints
+
+↓
+
+Institutional Architecture
+
+↓
+
+Capability Assessment
+5. institutional-capability-assessment.json
+
+Measures
+
+Governance
+
+Procurement
+
+Finance
+
+Coordination
+
+DPI
+
+Institutional Memory
+
+↓
+
+Capability Score
+6. digital-public-infrastructure-review.json
+
+Purpose
+
+Identity
+
+Payments
+
+Data Exchange
+
+Authentication
+
+Interoperability
+
+↓
+
+DPI Assessment
+7. ai-governance-assessment.json
+
+Purpose
+
+AI System
+
+↓
+
+Risk
+
+↓
+
+Transparency
+
+↓
+
+Accountability
+
+↓
+
+Governance Score
+8. dfi-article-generator.json
+
+Purpose
+
+World Bank
+
+AfDB
+
+UNDP
+
+OECD
+
+↓
+
+Institutional Analysis
+
+↓
+
+Article Draft
+9. research-paper-generator.json
+
+Purpose
+
+Institutional Signal
+
+↓
+
+Research Questions
+
+↓
+
+Hypotheses
+
+↓
+
+Framework
+
+↓
+
+Journal Draft
+10. institutional-knowledge-graph.json
+
+Purpose
+
+Signals
+
+↓
+
+Institutions
+
+↓
+
+Policies
+
+↓
+
+Relationships
+
+↓
+
+Knowledge Graph
+11. procurement-dashboard.json
+
+Purpose
+
+Procurement Data
+
+↓
+
+Analytics
+
+↓
+
+KPIs
+
+↓
+
+Dashboard
+12. institutional-memory.json
+
+Purpose
+
+Research
+
+↓
+
+Metadata
+
+↓
+
+Archive
+
+↓
+
+Institutional Memory
+13. civilization-intelligence.json
+
+Purpose
+
+Institutional Signals
+
+↓
+
+Trend Detection
+
+↓
+
+Civilization Transition
+
+↓
+
+Strategic Intelligence
+Suggested Variables
+
+Every template should expose configurable variables.
+
+institution:
+country:
+sector:
+policy_domain:
+governance_primitive:
+analysis_depth:
+output_format:
+language:
+openai_model:
+database:
+notification:
+Future Templates
+
+Planned additions
+
+Digital Procurement Twin
+Government Capability Simulator
+Budget Execution Analyzer
+AI Procurement Auditor
+Institutional Trust Monitor
+National Competitiveness Index
+Development Finance Tracker
+DPI Readiness Assessment
