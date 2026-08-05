@@ -1,0 +1,283 @@
+Create:
+
+knowledge-graph/
+└── patterns/
+    ├── README.md
+    ├── governance-patterns.json
+    ├── procurement-patterns.json
+    ├── capability-patterns.json
+    ├── dpi-patterns.json
+    ├── ai-governance-patterns.json
+    ├── institutional-memory-patterns.json
+    ├── interoperability-patterns.json
+    ├── risk-patterns.json
+    ├── resilience-patterns.json
+    ├── coordination-patterns.json
+    ├── anti-patterns.json
+    ├── ontology.json
+    └── pattern-schema.json
+README.md
+# Institutional Patterns
+
+Institutional Patterns capture recurring structures, behaviors, and governance arrangements observed across public institutions.
+
+Unlike entities (things), relationships (connections), or signals (states), patterns represent **repeatable institutional designs** that can be reused, evaluated, or avoided.
+
+Patterns form the institutional design language of the Legibility Office Institutional Operating System (IOS).
+
+---
+
+## Pattern Categories
+
+- Governance
+- Procurement
+- Capability
+- Digital Public Infrastructure
+- AI Governance
+- Institutional Memory
+- Interoperability
+- Coordination
+- Resilience
+- Risk
+- Anti-Patterns
+
+---
+
+## Pattern Lifecycle
+
+Problem
+
+↓
+
+Pattern
+
+↓
+
+Implementation
+
+↓
+
+Observation
+
+↓
+
+Institutional Learning
+
+↓
+
+Pattern Library
+governance-patterns.json
+[
+  {
+    "id": "whole-of-government",
+    "name": "Whole-of-Government Coordination",
+    "intent": "Coordinate multiple ministries through shared governance.",
+    "maturity": 5
+  },
+  {
+    "id": "independent-regulator",
+    "name": "Independent Regulator",
+    "intent": "Separate policy from regulation.",
+    "maturity": 4
+  }
+]
+procurement-patterns.json
+[
+  {
+    "id": "central-framework-contract",
+    "name": "Central Framework Contract",
+    "intent": "Reduce procurement duplication."
+  },
+  {
+    "id": "open-contracting",
+    "name": "Open Contracting",
+    "intent": "Increase procurement transparency."
+  }
+]
+capability-patterns.json
+[
+  {
+    "id": "continuous-learning",
+    "name": "Continuous Institutional Learning"
+  },
+  {
+    "id": "knowledge-transfer",
+    "name": "Knowledge Transfer"
+  }
+]
+dpi-patterns.json
+[
+  {
+    "id": "identity-first",
+    "name": "Identity First"
+  },
+  {
+    "id": "shared-data-exchange",
+    "name": "Shared Data Exchange"
+  }
+]
+ai-governance-patterns.json
+[
+  {
+    "id": "human-in-the-loop",
+    "name": "Human in the Loop"
+  },
+  {
+    "id": "algorithm-audit",
+    "name": "Algorithm Audit"
+  }
+]
+institutional-memory-patterns.json
+[
+  {
+    "id": "lessons-learned",
+    "name": "Lessons Learned Repository"
+  },
+  {
+    "id": "decision-register",
+    "name": "Institutional Decision Register"
+  }
+]
+interoperability-patterns.json
+[
+  {
+    "id": "api-first",
+    "name": "API First"
+  },
+  {
+    "id": "common-data-model",
+    "name": "Common Data Model"
+  }
+]
+risk-patterns.json
+[
+  {
+    "id": "three-lines-of-defence",
+    "name": "Three Lines of Defence"
+  },
+  {
+    "id": "continuous-risk-monitoring",
+    "name": "Continuous Risk Monitoring"
+  }
+]
+resilience-patterns.json
+[
+  {
+    "id": "institutional-redundancy",
+    "name": "Institutional Redundancy"
+  },
+  {
+    "id": "distributed-governance",
+    "name": "Distributed Governance"
+  }
+]
+coordination-patterns.json
+[
+  {
+    "id": "coordination-council",
+    "name": "National Coordination Council"
+  },
+  {
+    "id": "shared-services",
+    "name": "Shared Government Services"
+  }
+]
+anti-patterns.json
+[
+  {
+    "id": "knowledge-silos",
+    "name": "Knowledge Silos",
+    "impact": "High"
+  },
+  {
+    "id": "procurement-fragmentation",
+    "name": "Fragmented Procurement",
+    "impact": "High"
+  },
+  {
+    "id": "single-point-decision",
+    "name": "Single Point Decision Making",
+    "impact": "Medium"
+  },
+  {
+    "id": "vendor-lock-in",
+    "name": "Vendor Lock-In",
+    "impact": "High"
+  }
+]
+ontology.json
+{
+  "patternCategories": [
+    "Governance",
+    "Procurement",
+    "Capability",
+    "DPI",
+    "AI",
+    "InstitutionalMemory",
+    "Interoperability",
+    "Coordination",
+    "Risk",
+    "Resilience",
+    "AntiPattern"
+  ]
+}
+pattern-schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institutional Pattern",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "maturity": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
+
+
+With the addition of patterns/, the semantic architecture now consists of five complementary layers:
+
+Ontology
+      │
+      ├── Entities      (what exists)
+      ├── Relationships (how they connect)
+      ├── Signals       (current state)
+      ├── Patterns      (repeatable designs)
+      └── Anti-Patterns (repeatable failures)
+              │
+              ▼
+Institutional Knowledge Graph
+              │
+              ▼
+Institutional Intelligence
+              │
+              ▼
+Design Guidance
+              │
+              ▼
+Governance Analytics
+              │
+              ▼
+AI-Assisted Institutional Architecture
+
+Patterns transform the knowledge graph from a descriptive model into a prescriptive institutional design system. They allow the IOS to recommend proven governance structures, highlight risky arrangements, and guide the construction of more resilient, interoperable, and adaptive public institutions.
