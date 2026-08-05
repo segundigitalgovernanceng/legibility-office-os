@@ -1,0 +1,222 @@
+Digital Public Infrastructure Stack
+Digital Public Infrastructure as the Institutional Coordination Layer
+Diagram Layout
+                     NATIONAL VISION
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Public Governance       │
+                 │ National Policy         │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Digital Identity        │
+                 │ Citizens               │
+                 │ Businesses             │
+                 │ Institutions           │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Trust Infrastructure    │
+                 │ Authentication          │
+                 │ Verification            │
+                 │ Consent                 │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Data Exchange Layer     │
+                 │ APIs                    │
+                 │ Registries              │
+                 │ Interoperability        │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Payment Infrastructure  │
+                 │ Treasury                │
+                 │ Digital Payments        │
+                 │ Financial Rails         │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Service Delivery Layer  │
+                 │ Health                  │
+                 │ Education               │
+                 │ Procurement             │
+                 │ Tax                     │
+                 │ Justice                 │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ Institutional Memory    │
+                 │ Evidence                │
+                 │ Audit                   │
+                 │ Knowledge               │
+                 └─────────────────────────┘
+                            │
+                            ▼
+                 ┌─────────────────────────┐
+                 │ National Capability     │
+                 └─────────────────────────┘
+                            │
+                            └────────────────────────────┐
+                                                         │
+                                                         ▼
+                                             Public Governance
+Right-side Panel
+Digital Public Infrastructure Primitives
+Identity
+
+↓
+
+Trust
+
+↓
+
+Authentication
+
+↓
+
+Authorization
+
+↓
+
+Consent
+
+↓
+
+Interoperability
+
+↓
+
+Payments
+
+↓
+
+Data
+
+↓
+
+Evidence
+
+↓
+
+Institutional Memory
+
+↓
+
+Coordination
+
+↓
+
+Accountability
+Institutional Coordination Loop
+Identity
+
+↓
+
+Verification
+
+↓
+
+Transaction
+
+↓
+
+Evidence
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↓
+
+Improved Governance
+
+↺
+DPI Layers
+1. Governance Layer
+National Digital Strategy
+Digital Governance
+Regulatory Frameworks
+Public Policy
+2. Identity Layer
+National Identity
+Business Identity
+Public Institution Identity
+3. Trust Layer
+Authentication
+Authorization
+Digital Signatures
+Consent Management
+4. Data Layer
+National Registries
+Secure APIs
+Metadata Standards
+Data Exchange
+5. Financial Layer
+Treasury Systems
+Government Payments
+Digital Wallets
+Settlement Infrastructure
+6. Service Layer
+
+Supports all public services:
+
+Procurement
+Healthcare
+Education
+Tax
+Social Protection
+Justice
+Agriculture
+Licensing
+7. Learning Layer
+Audit Logs
+Performance Data
+Institutional Memory
+AI Analytics
+Continuous Improvement
+Bottom Footer
+Digital Public Infrastructure Principle
+
+Digital Public Infrastructure is not software.
+
+It is the institutional coordination architecture that enables governments, citizens, businesses, and public institutions to interact securely, interoperably, and at national scale.
+
+Design Specification
+Style
+World Bank Digital Public Infrastructure reports
+UNDP Digital Governance architecture
+Estonia X-Road ecosystem diagrams
+India DPI architecture style
+Colors
+White background
+Navy (#163A70)
+Light blue (#EAF2FB)
+Soft gray connectors
+Typography
+IBM Plex Sans
+Inter
+Source Sans Pro
+Suggested Icons
+Layer	Icon
+Governance	Government building
+Identity	ID card
+Trust	Shield
+Data Exchange	Connected nodes
+Payments	Currency / Wallet
+Services	Apps grid
+Institutional Memory	Database
+Capability	Gear
+
+Use minimalist monochrome line icons.
