@@ -1,0 +1,272 @@
+api/
+├── README.md
+├── openapi.yaml
+├── institutional-api.md
+├── authentication.md
+├── rate-limits.md
+├── versioning.md
+├── endpoints/
+│   ├── governance.md
+│   ├── procurement.md
+│   ├── capability.md
+│   ├── institutional-memory.md
+│   ├── digital-public-infrastructure.md
+│   ├── ai-governance.md
+│   ├── institutional-signals.md
+│   ├── research.md
+│   └── knowledge-graph.md
+│
+├── examples/
+│   ├── curl.md
+│   ├── python.md
+│   ├── javascript.md
+│   └── postman.json
+│
+├── schemas/
+│   ├── governance.json
+│   ├── procurement.json
+│   ├── capability.json
+│   ├── institutional-memory.json
+│   ├── dpi.json
+│   ├── ai-governance.json
+│   └── signal.json
+│
+└── sdk/
+    ├── python/
+    ├── javascript/
+    └── typescript/
+
+api/README.md
+# Legibility Office API
+
+## Purpose
+
+The Legibility Office API provides programmatic access to the Institutional Operating System (IOS).
+
+The API enables governments, researchers, development finance institutions, and technology partners to integrate institutional intelligence into their own systems.
+
+---
+
+# Core Services
+
+- Governance Intelligence
+- Procurement Intelligence
+- Institutional Capability
+- Digital Public Infrastructure
+- AI Governance
+- Institutional Memory
+- Institutional Signals
+- Knowledge Graph
+
+---
+
+# Base URL
+
+```
+https://api.legibilityoffice.org/v1/
+```
+
+---
+
+# Authentication
+
+API Key
+
+OAuth 2.0 (future)
+
+---
+
+# Response Format
+
+JSON
+
+---
+
+# Version
+
+v1
+openapi.yaml
+openapi: 3.0.0
+
+info:
+  title: Legibility Office API
+  version: 1.0.0
+  description: Institutional Operating System API
+
+servers:
+  - url: https://api.legibilityoffice.org/v1
+institutional-api.md
+# Institutional API
+
+The API exposes institutional capability as machine-readable services.
+
+Domains
+
+- Governance
+- Procurement
+- Digital Public Infrastructure
+- Institutional Memory
+- AI Governance
+- Capability
+authentication.md
+# Authentication
+
+Current
+
+- API Key
+
+Future
+
+- OAuth 2.0
+- JWT
+- Organization Authentication
+versioning.md
+# Versioning
+
+Current
+
+v1
+
+Future
+
+v2
+
+Breaking changes will follow semantic versioning.
+endpoints/governance.md
+# Governance Endpoint
+
+GET
+
+```
+/governance
+```
+
+Returns
+
+- Governance capability
+- Indicators
+- Scores
+- Metadata
+endpoints/procurement.md
+# Procurement Endpoint
+
+GET
+
+```
+/procurement
+```
+
+Returns
+
+- Procurement capability
+- Risk indicators
+- Contract metrics
+endpoints/capability.md
+# Capability Endpoint
+
+GET
+
+```
+/capability
+```
+
+Returns
+
+Institutional capability assessment.
+endpoints/institutional-memory.md
+# Institutional Memory
+
+GET
+
+```
+/institutional-memory
+```
+
+Returns archived institutional knowledge.
+endpoints/digital-public-infrastructure.md
+# Digital Public Infrastructure
+
+GET
+
+```
+/dpi
+```
+
+Returns
+
+- Identity
+- Payments
+- Authentication
+- Interoperability
+endpoints/ai-governance.md
+# AI Governance
+
+GET
+
+```
+/ai-governance
+```
+
+Returns AI governance maturity.
+endpoints/institutional-signals.md
+# Institutional Signals
+
+GET
+
+```
+/signals
+```
+
+Returns institutional intelligence signals.
+endpoints/research.md
+# Research
+
+GET
+
+```
+/research
+```
+
+Returns
+
+- Papers
+- Frameworks
+- Publications
+endpoints/knowledge-graph.md
+# Knowledge Graph
+
+GET
+
+```
+/knowledge-graph
+```
+
+Returns institutional relationships.
+examples/curl.md
+# cURL Example
+
+```bash
+curl https://api.legibilityoffice.org/v1/governance
+```
+examples/python.md
+# Python Example
+
+```python
+import requests
+
+requests.get(
+    "https://api.legibilityoffice.org/v1/governance"
+)
+```
+examples/javascript.md
+# JavaScript Example
+
+```javascript
+fetch("https://api.legibilityoffice.org/v1/governance")
+```
+schemas/README
+
+Reuse the schemas already created in the repository.
+
+
+└── api/
