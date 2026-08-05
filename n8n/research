@@ -1,0 +1,217 @@
+# Legibility Office Research
+
+## Purpose
+
+This directory contains the research foundation of the Legibility Office Institutional Operating System (IOS).
+
+The objective is to build an open institutional science that explains how governments develop long-term capability.
+
+Research focuses on governance, procurement, Digital Public Infrastructure (DPI), AI governance, institutional memory, coordination, and national competitiveness.
+
+---
+
+# Research Themes
+
+## Governance
+
+Understanding how institutions coordinate authority, accountability, and public decision-making.
+
+---
+
+## Procurement
+
+Exploring procurement as a strategic capability rather than an administrative process.
+
+---
+
+## Digital Public Infrastructure
+
+Studying how identity, payments, interoperability, and digital public services strengthen institutional capability.
+
+---
+
+## Institutional Memory
+
+Understanding how governments preserve knowledge, learn, and improve over time.
+
+---
+
+## AI Governance
+
+Developing governance architectures that ensure AI strengthens institutional resilience.
+
+---
+
+## Institutional Capability
+
+Measuring how institutions transform public investment into sustained productivity.
+
+---
+
+## Institutional Physics
+
+Developing theoretical models explaining institutional behaviour, path dependence, governance inheritance, and capability formation.
+
+---
+
+# Research Outputs
+
+The repository supports
+
+- Journal articles
+- Working papers
+- Literature reviews
+- Policy briefs
+- Frameworks
+- Datasets
+- Research hypotheses
+
+---
+
+# Long-Term Goal
+
+Build the world's largest open research library on Institutional Operating Systems.
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional science for the twenty-first century.
+
+journal-targets.md
+# Target Journals
+
+Priority Journals
+
+- Government Information Quarterly
+- Public Administration Review
+- Journal of Public Administration Research and Theory
+- Information Polity
+- Policy & Internet
+- Public Management Review
+- Government Policy
+- Telecommunications Policy
+- Digital Government: Research and Practice
+
+Secondary Journals
+
+- Technological Forecasting & Social Change
+- Futures
+- AI & Society
+- Journal of Institutional Economics
+research-roadmap.md
+# Research Roadmap
+
+## Phase 1
+
+Institutional Operating System
+
+Governance Inheritance
+
+Institutional Physics
+
+Procurement Capability
+
+---
+
+## Phase 2
+
+Digital Public Infrastructure
+
+Institutional Memory
+
+AI Governance
+
+Capability Architecture
+
+---
+
+## Phase 3
+
+Institutional Intelligence
+
+Civilization Intelligence
+
+Institutional Digital Twins
+
+Institutional Knowledge Graphs
+
+---
+
+## Phase 4
+
+Institutional Operating System Atlas
+
+Country Implementations
+
+Comparative Institutional Capability
+
+Global Benchmarking
+publication-pipeline.md
+# Publication Pipeline
+
+## Completed
+
+- Governance Inheritance
+
+---
+
+## Drafting
+
+- Institutional Operating System
+- Procurement Capability Framework
+
+---
+
+## Research
+
+- Institutional Physics
+- Digital Public Infrastructure
+- Institutional Memory
+- AI Governance
+- Coordination Architecture
+- Civilization Intelligence
+references/books.md
+# Foundational Books
+
+- Douglass North
+- Elinor Ostrom
+- Herbert Simon
+- James March
+- Geoffrey Hodgson
+- Acemoglu & Robinson
+- Peter Evans
+- Dani Rodrik
+- Michael Porter
+references/journal-articles.md
+# Core Literature
+
+This file indexes peer-reviewed literature supporting the IOS framework.
+
+Topics
+
+- Governance
+- Procurement
+- Public Administration
+- Digital Government
+- AI Governance
+- Institutional Theory
+- State Capability
+hypotheses/hypothesis-library.md
+# Institutional Hypothesis Library
+
+Example
+
+H001
+
+Sustained national competitiveness is primarily an architectural property rather than a capital property.
+
+H002
+
+Procurement maturity predicts institutional capability more strongly than infrastructure spending alone.
+
+H003
+
+Digital Public Infrastructure strengthens governance through interoperability rather than digitization alone.
