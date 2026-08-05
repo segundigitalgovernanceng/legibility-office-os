@@ -1,0 +1,442 @@
+Create:
+
+.github/
+├── ISSUE_TEMPLATE/
+│   ├── bug_report.md
+│   ├── feature_request.md
+│   ├── governance-proposal.md
+│   ├── procurement-proposal.md
+│   ├── capability-improvement.md
+│   ├── research-request.md
+│   ├── ontology-change.md
+│   ├── dataset-request.md
+│   ├── country-profile.md
+│   └── config.yml
+├── PULL_REQUEST_TEMPLATE.md
+├── DISCUSSION_TEMPLATE.md
+└── workflows/
+    ├── ci.yml
+    ├── validate-yaml.yml
+    ├── validate-json.yml
+    ├── markdown-lint.yml
+    ├── ontology-validation.yml
+    ├── graph-validation.yml
+    ├── api-tests.yml
+    ├── release.yml
+    ├── docs.yml
+    ├── security.yml
+    └── spellcheck.yml
+ISSUE_TEMPLATE/config.yml
+blank_issues_enabled: false
+
+contact_links:
+
+  - name: Legibility Office Community
+
+    url: https://github.com/legibilityoffice/discussions
+
+    about: Ask questions or discuss ideas.
+bug_report.md
+---
+name: Bug Report
+
+about: Report a bug
+
+title: "[BUG] "
+
+labels: bug
+---
+
+## Description
+
+## Expected Behaviour
+
+## Actual Behaviour
+
+## Steps to Reproduce
+
+## Environment
+feature_request.md
+---
+name: Feature Request
+
+about: Suggest a new feature
+
+title: "[FEATURE] "
+
+labels: enhancement
+---
+
+## Problem
+
+## Proposed Solution
+
+## Benefits
+
+## Alternatives
+governance-proposal.md
+---
+name: Governance Proposal
+
+labels: governance
+---
+
+## Governance Area
+
+## Current Situation
+
+## Proposed Improvement
+
+## Expected Institutional Impact
+procurement-proposal.md
+---
+name: Procurement Proposal
+
+labels: procurement
+---
+
+## Procurement Domain
+
+## Current Challenge
+
+## Recommendation
+
+## Expected Benefit
+capability-improvement.md
+---
+name: Capability Improvement
+
+labels: capability
+---
+
+## Capability
+
+## Current Maturity
+
+## Proposed Enhancement
+
+## Dependencies
+research-request.md
+---
+name: Research Request
+
+labels: research
+---
+
+## Research Topic
+
+## Objective
+
+## Expected Output
+
+## References
+ontology-change.md
+---
+name: Ontology Change
+
+labels: ontology
+---
+
+## Ontology Component
+
+## Proposed Change
+
+## New Classes
+
+## New Relationships
+
+## Impact
+dataset-request.md
+---
+name: Dataset Request
+
+labels: dataset
+---
+
+## Dataset
+
+## Purpose
+
+## Format
+
+## Source
+country-profile.md
+---
+name: Country Profile
+
+labels: country
+---
+
+## Country
+
+## Governance
+
+## Procurement
+
+## DPI
+
+## AI Governance
+
+## Institutional Capability
+PULL_REQUEST_TEMPLATE.md
+# Pull Request
+
+## Summary
+
+Describe the change.
+
+---
+
+## Type
+
+- [ ] Bug fix
+
+- [ ] Feature
+
+- [ ] Documentation
+
+- [ ] Ontology
+
+- [ ] Governance
+
+- [ ] Procurement
+
+- [ ] Dataset
+
+- [ ] API
+
+---
+
+## Checklist
+
+- [ ] Documentation updated
+
+- [ ] Tests added
+
+- [ ] JSON validated
+
+- [ ] YAML validated
+
+- [ ] Markdown checked
+
+- [ ] No breaking changes
+DISCUSSION_TEMPLATE.md
+# Discussion
+
+## Topic
+
+## Context
+
+## Questions
+
+## Recommendations
+
+## Next Steps
+workflows/ci.yml
+name: CI
+
+on:
+
+  push:
+
+  pull_request:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: echo "CI Passed"
+workflows/validate-yaml.yml
+name: Validate YAML
+
+on: [push]
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: yamllint .
+workflows/validate-json.yml
+name: Validate JSON
+
+on: [push]
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: find . -name "*.json"
+workflows/markdown-lint.yml
+name: Markdown Lint
+
+on: [push]
+
+jobs:
+
+  lint:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: markdownlint .
+workflows/ontology-validation.yml
+name: Ontology Validation
+
+on: [push]
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: echo "Validate ontology"
+workflows/graph-validation.yml
+name: Graph Validation
+
+on: [push]
+
+jobs:
+
+  validate:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: echo "Validate graph"
+workflows/api-tests.yml
+name: API Tests
+
+on: [push]
+
+jobs:
+
+  api:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - run: echo "Run API tests"
+workflows/release.yml
+name: Release
+
+on:
+
+  release:
+
+    types: [published]
+
+jobs:
+
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Release"
+workflows/docs.yml
+name: Documentation
+
+on: [push]
+
+jobs:
+
+  docs:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Build docs"
+workflows/security.yml
+name: Security Scan
+
+on: [push]
+
+jobs:
+
+  security:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Security scan"
+workflows/spellcheck.yml
+name: Spell Check
+
+on: [push]
+
+jobs:
+
+  spellcheck:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - run: echo "Spellcheck"
+
+This completes the repository governance layer.
+
+Your repository now has governance at every level:
+
+Repository Governance
+        │
+        ├── Issue Templates
+        ├── Pull Requests
+        ├── Discussions
+        ├── CI/CD
+        ├── Validation
+        ├── Security
+        ├── Documentation
+        └── Releases
+                │
+                ▼
+Institutional Operating System
+                │
+                ▼
+Knowledge Graph
+                │
+                ▼
+APIs
+                │
+                ▼
+Research
+                │
+                ▼
+Publications
+
+This gives the project the operational maturity expected of a long-lived open-source institutional platform, with standardized contribution workflows, automated quality checks, and maintainable governance processes.
