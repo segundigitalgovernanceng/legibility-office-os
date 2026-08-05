@@ -1,0 +1,314 @@
+# Legibility Office Institutional Agents
+
+## Purpose
+
+This directory contains autonomous AI agents that implement the Legibility Office Institutional Operating System (IOS).
+
+Unlike workflows, agents continuously observe, interpret, reason, and generate institutional intelligence.
+
+They function as permanent institutional analysts rather than one-time automations.
+
+---
+
+## Agent Categories
+
+### Institutional Intelligence
+
+- Institutional Signal Agent
+- Institutional Comment Agent
+- Governance Review Agent
+- Policy Monitor Agent
+
+---
+
+### Public Systems
+
+- Procurement Intelligence Agent
+- Procurement Risk Agent
+- Digital Public Infrastructure Agent
+- Capability Assessment Agent
+
+---
+
+### Knowledge Systems
+
+- Institutional Memory Agent
+- Research Agent
+- DFI Intelligence Agent
+- Civilization Intelligence Agent
+
+---
+
+### Coordination
+
+- IOS Orchestrator Agent
+
+---
+
+## Design Principles
+
+Every agent must
+
+- Observe
+- Classify
+- Interpret
+- Generate evidence
+- Preserve institutional memory
+- Produce explainable outputs
+
+---
+
+## Core Philosophy
+
+Agents do not replace institutions.
+
+Agents increase institutional legibility.
+
+---
+
+## Repository
+
+https://github.com/segundigitalgovernanceng/legibility-office-os
+
+institutional-signal-agent.md
+# Institutional Signal Agent
+
+## Mission
+
+Continuously monitor institutions for strategic governance signals.
+
+## Inputs
+
+- Government websites
+- LinkedIn
+- World Bank
+- AfDB
+- OECD
+- UNDP
+- AU
+- Smart Africa
+
+## Outputs
+
+- Signal classification
+- Governance primitive
+- Institutional layer
+- Hidden capability
+- Knowledge graph update
+governance-review-agent.md
+# Governance Review Agent
+
+Evaluates governance quality across institutions.
+
+Produces
+
+- Governance score
+- Institutional weaknesses
+- Coordination gaps
+- Reform recommendations
+procurement-intelligence-agent.md
+# Procurement Intelligence Agent
+
+Analyzes procurement systems.
+
+Produces
+
+- Procurement maturity
+- Supplier risk
+- Strategic procurement opportunities
+- Capability assessment
+institutional-memory-agent.md
+# Institutional Memory Agent
+
+Creates permanent institutional memory.
+
+Functions
+
+- Archive signals
+- Build knowledge graph
+- Preserve institutional learning
+- Detect recurring patterns
+digital-public-infrastructure-agent.md
+# Digital Public Infrastructure Agent
+
+Evaluates
+
+- Identity
+- Payments
+- Authentication
+- Interoperability
+- Data exchange
+
+Produces DPI maturity assessments.
+ai-governance-agent.md
+# AI Governance Agent
+
+Reviews public-sector AI systems.
+
+Measures
+
+- Transparency
+- Explainability
+- Accountability
+- Human oversight
+- Institutional risk
+capability-assessment-agent.md
+# Capability Assessment Agent
+
+Measures institutional capability.
+
+Domains
+
+- Governance
+- Procurement
+- Finance
+- Coordination
+- Institutional Memory
+- Digital Public Infrastructure
+
+Produces capability scores.
+research-agent.md
+# Research Agent
+
+Converts institutional signals into research.
+
+Outputs
+
+- Research hypotheses
+- Journal paper ideas
+- Governance frameworks
+- Procurement implications
+- AI governance implications
+civilization-intelligence-agent.md
+# Civilization Intelligence Agent
+
+Detects long-term institutional transitions.
+
+Examples
+
+- AI-native governance
+- Digital Public Infrastructure
+- Institutional interoperability
+- Procurement modernization
+- Development finance reform
+
+Produces civilization intelligence reports.
+institutional-comment-agent.md
+# Institutional Comment Agent
+
+Generates LinkedIn institutional comments.
+
+Rules
+
+- No praise
+- No hype
+- Reveal architecture
+- Focus on systems
+- Build Institutional Trust Capital
+policy-monitor-agent.md
+# Policy Monitor Agent
+
+Continuously compares
+
+- Policy updates
+- Regulatory changes
+- Institutional reforms
+
+Produces alerts and institutional implications.
+dfi-intelligence-agent.md
+# DFI Intelligence Agent
+
+Specializes in
+
+- World Bank
+- AfDB
+- IMF
+- OECD
+- UNDP
+
+Produces institutional intelligence from development finance signals.
+procurement-risk-agent.md
+# Procurement Risk Agent
+
+Detects
+
+- Tender risk
+- Supplier concentration
+- Contract anomalies
+- Governance failures
+- Execution bottlenecks
+ios-orchestrator-agent.md
+# IOS Orchestrator Agent
+
+Coordinates all agents.
+
+Workflow
+
+Institutional Signal
+
+↓
+
+Signal Agent
+
+↓
+
+Governance Agent
+
+↓
+
+Procurement Agent
+
+↓
+
+DPI Agent
+
+↓
+
+Research Agent
+
+↓
+
+Memory Agent
+
+↓
+
+Comment Agent
+
+↓
+
+Knowledge Graph
+
+↓
+
+Institutional Intelligence
+multi-agent-architecture.md
+# Multi-Agent Institutional Architecture
+
+```
+                 IOS Orchestrator
+                       │
+ ┌─────────────────────┼─────────────────────┐
+ │                     │                     │
+Signal Agent      Governance Agent     Procurement Agent
+ │                     │                     │
+ │                     │                     │
+DPI Agent         Capability Agent      Risk Agent
+ │                     │                     │
+ └──────────────┬──────┴──────────────┬──────┘
+                │
+         Research Agent
+                │
+        Memory Agent
+                │
+      Comment Agent
+                │
+      Civilization Agent
+                │
+      Institutional Knowledge Graph
+```
+
+## Design Principle
+
+Every agent contributes one capability.
+
+Together they produce institutional intelligence.
