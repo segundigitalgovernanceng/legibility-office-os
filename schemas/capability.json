@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/segundigitalgovernanceng/legibility-office-os/schemas/capability.json",
+  "title": "Legibility Office Institutional Capability Schema",
+  "description": "Canonical schema for measuring institutional capability within the Institutional Operating System (IOS).",
+  "type": "object",
+  "required": [
+    "capability_id",
+    "institution",
+    "country",
+    "capability_domain",
+    "dimensions",
+    "institutional_primitives",
+    "capability_score",
+    "maturity_level",
+    "status"
+  ],
+  "properties": {
+    "capability_id": {
+      "type": "string",
+      "description": "Unique capability assessment identifier."
+    },
+    "institution": {
+      "type": "string",
+      "description": "Institution being assessed."
+    },
+    "country": {
+      "type": "string",
+      "description": "Country or jurisdiction."
+    },
+    "capability_domain": {
+      "type": "string",
+      "enum": [
+        "Governance",
+        "Procurement",
+        "Digital Public Infrastructure",
+        "Public Finance",
+        "Institutional Coordination",
+        "Service Delivery",
+        "Regulation",
+        "AI Governance",
+        "National Capability"
+      ]
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "governance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "coordination": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "execution": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "digital_capability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "institutional_memory": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "learning": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "adaptability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "institutional_primitives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Authority",
+          "Trust",
+          "Evidence",
+          "Identity",
+          "Coordination",
+          "Accountability",
+          "Standards",
+          "Interoperability",
+          "Knowledge",
+          "Institutional Memory",
+          "Learning",
+          "Capital Allocation",
+          "Risk",
+          "Consent"
+        ]
+      }
+    },
+    "capability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Overall institutional capability score."
+    },
+    "maturity_level": {
+      "type": "string",
+      "enum": [
+        "Initial",
+        "Developing",
+        "Managed",
+        "Integrated",
+        "Adaptive",
+        "Transformational"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Emerging",
+        "Operational",
+        "Improving",
+        "Stable",
+        "Leading"
+      ]
+    },
+    "assessment_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "assessor": {
+      "type": "string"
+    },
+    "recommendations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
