@@ -1,0 +1,246 @@
+# Rwanda Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to Rwanda's governance ecosystem.
+
+It illustrates how governance, procurement, Digital Public Infrastructure (DPI), institutional coordination, public finance, and AI governance interact to continuously build national capability.
+
+This document is illustrative and intended as an institutional reference architecture.
+
+---
+
+# National Context
+
+Country: Republic of Rwanda
+
+Population: ~15 million
+
+Government System: Presidential Republic
+
+Administrative Structure
+
+- Central Government
+- Provinces
+- Districts
+- Sectors
+- Cells
+- Villages
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Office of the President
+- Parliament of Rwanda
+- Prime Minister's Office
+- Rwanda Governance Board
+- Ministry of ICT and Innovation
+
+Institutional Capability
+
+- Strategic Coordination
+- Public Sector Reform
+- Institutional Accountability
+- Long-term Policy Execution
+
+---
+
+## Procurement
+
+Examples
+
+- Rwanda Public Procurement Authority (RPPA)
+- Government Procurement Entities
+- Local Government Procurement Units
+
+Capability
+
+- Strategic Procurement
+- Capital Allocation
+- Supplier Performance
+- Contract Governance
+
+---
+
+## Public Finance
+
+Examples
+
+- Ministry of Finance and Economic Planning (MINECOFIN)
+- Rwanda Revenue Authority
+- Office of the Auditor General
+
+Capability
+
+- Fiscal Discipline
+- Budget Coordination
+- Public Investment Management
+- Revenue Administration
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- IremboGov
+- National Digital Identity
+- Digital Payments
+- Government Digital Services
+- National Data Infrastructure
+
+Capability
+
+- Digital Identity
+- Authentication
+- Public Service Delivery
+- Secure Digital Transactions
+- Government Interoperability
+
+---
+
+## Institutional Memory
+
+Examples
+
+- National Archives
+- Government Information Systems
+- Public Records
+- Digital Knowledge Repositories
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Organizational Learning
+- Policy Continuity
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Intelligence
+- Service Delivery Optimization
+- Health Analytics
+- Agricultural Intelligence
+- Public Administration Automation
+
+Governance Requirements
+
+- Human Oversight
+- Explainability
+- Accountability
+- Transparency
+- Continuous Monitoring
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Digital Identity
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+National Capability
+```
+
+---
+
+# Governance Primitives
+
+Rwanda's IOS depends upon
+
+- Identity
+- Trust
+- Standards
+- Evidence
+- Procurement
+- Coordination
+- Accountability
+- Institutional Memory
+- Capital Allocation
+- Risk
+
+---
+
+# Capability Indicators
+
+Illustrative Metrics
+
+- Governance Quality
+- Procurement Integrity
+- Budget Execution
+- Digital Service Adoption
+- Institutional Learning
+- Public Trust
+- Service Delivery Performance
+- DPI Maturity
+
+---
+
+# Institutional Opportunities
+
+Potential capability improvements
+
+- AI-enabled procurement monitoring
+- Institutional knowledge graph
+- Cross-government interoperability
+- Public finance integration
+- Digital identity expansion
+- Procurement analytics
+- Institutional capability benchmarking
+- AI governance architecture
+
+---
+
+# Example Research Questions
+
+- How can procurement become a strategic capability rather than an administrative function?
+
+- How does Digital Public Infrastructure strengthen institutional coordination?
+
+- What institutional architecture enables continuous policy execution?
+
+- How should AI governance evolve within Rwanda's public institutions?
+
+- How can institutional memory preserve governance capability across political transitions?
+
+---
+
+# Future Work
+
+Future versions may include
+
+- Institutional capability maps
+- Procurement workflows
+- Governance dashboards
+- AI governance implementation models
+- Digital Public Infrastructure architecture
+- Machine-readable institutional models
+- n8n institutional automation workflows
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
