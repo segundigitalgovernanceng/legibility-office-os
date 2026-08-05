@@ -1,0 +1,242 @@
+# Kenya Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to Kenya's governance ecosystem.
+
+It is an illustrative reference model intended to show how governance capability, procurement, Digital Public Infrastructure (DPI), public finance, institutional coordination, and AI governance interact to build long-term national capability.
+
+---
+
+# National Context
+
+Country: Republic of Kenya
+
+Population: ~57 million
+
+Government System: Presidential Republic
+
+Administrative Structure
+
+- National Government
+- 47 County Governments
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Office of the President
+- Parliament of Kenya
+- National Treasury
+- Ministry of ICT and Digital Economy
+- Public Service Commission
+
+Institutional Capability
+
+- Policy Coordination
+- Regulatory Governance
+- Executive Accountability
+- Institutional Learning
+
+---
+
+## Procurement
+
+Examples
+
+- Public Procurement Regulatory Authority (PPRA)
+- National Treasury
+- County Procurement Units
+- Procuring Entities
+
+Capability
+
+- Capital Allocation
+- Procurement Integrity
+- Supplier Governance
+- Contract Performance
+
+---
+
+## Public Finance
+
+Examples
+
+- National Treasury
+- Controller of Budget
+- Office of the Auditor-General
+- Kenya Revenue Authority
+
+Capability
+
+- Fiscal Coordination
+- Budget Management
+- Revenue Administration
+- Public Investment
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- eCitizen
+- Huduma Services
+- Kenya National Digital Identity Initiatives
+- Digital Payments
+- Government Digital Platforms
+
+Capability
+
+- Digital Identity
+- Public Service Delivery
+- Digital Payments
+- Secure Authentication
+- Data Exchange
+
+---
+
+## Institutional Memory
+
+Examples
+
+- Kenya National Archives
+- Government Information Systems
+- Public Records
+- Digital Repositories
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Policy Continuity
+- Organizational Learning
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Risk Detection
+- Tax Administration
+- Public Service Automation
+- Agricultural Intelligence
+- Health Analytics
+
+Governance Requirements
+
+- Human Oversight
+- Transparency
+- Explainability
+- Auditability
+- Public Accountability
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Digital Identity
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+Continuous Capability Development
+```
+
+---
+
+# Governance Primitives
+
+Kenya's IOS relies upon
+
+- Identity
+- Trust
+- Evidence
+- Standards
+- Coordination
+- Procurement
+- Capital Allocation
+- Institutional Memory
+- Accountability
+- Risk
+
+---
+
+# Capability Indicators
+
+Illustrative Metrics
+
+- Procurement Integrity
+- Budget Absorption
+- Service Delivery Performance
+- Digital Service Adoption
+- Governance Quality
+- Public Trust
+- Institutional Learning
+- Digital Public Infrastructure Maturity
+
+---
+
+# Institutional Opportunities
+
+Potential areas for capability strengthening
+
+- AI-enabled procurement monitoring
+- Cross-government interoperability
+- Institutional knowledge graph
+- County capability benchmarking
+- Procurement analytics
+- Public finance integration
+- Digital identity interoperability
+- Institutional memory architecture
+
+---
+
+# Example Research Questions
+
+- How can procurement strengthen Kenya's industrial competitiveness?
+
+- How can Digital Public Infrastructure improve county and national coordination?
+
+- What institutional architecture best supports Kenya's digital economy?
+
+- How should AI governance evolve within Kenyan public institutions?
+
+- How can institutional memory reduce policy discontinuity across electoral cycles?
+
+---
+
+# Future Work
+
+Future releases may include
+
+- Institutional capability maps
+- Procurement reference models
+- AI governance implementation guides
+- Digital Public Infrastructure architecture
+- County capability dashboards
+- Machine-readable governance models
+- n8n institutional workflows
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
