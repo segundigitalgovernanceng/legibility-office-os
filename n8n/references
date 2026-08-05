@@ -1,0 +1,321 @@
+research/
+└── references/
+    ├── README.md
+    ├── books.md
+    ├── journal-articles.md
+    ├── working-papers.md
+    ├── reports.md
+    ├── policy-documents.md
+    ├── international-standards.md
+    ├── datasets.md
+    ├── institutions.md
+    ├── ai-governance.md
+    ├── procurement.md
+    ├── digital-public-infrastructure.md
+    ├── governance.md
+    ├── public-administration.md
+    ├── institutional-economics.md
+    ├── state-capability.md
+    ├── industrial-policy.md
+    ├── systems-thinking.md
+    ├── bibliography.bib
+    └── citation-style.md
+
+
+research/references/README.md
+# Legibility Office Reference Library
+
+## Purpose
+
+This directory contains the complete reference library supporting the Legibility Office Institutional Operating System (IOS) research programme.
+
+The references are organised by discipline to support research, publication, policy development, and institutional analysis.
+
+---
+
+# Categories
+
+## Books
+
+Foundational books on institutions, governance, economics, procurement, and public administration.
+
+---
+
+## Journal Articles
+
+Peer-reviewed research.
+
+---
+
+## Working Papers
+
+Early-stage research from universities and think tanks.
+
+---
+
+## Reports
+
+Publications from international organizations.
+
+Examples
+
+- World Bank
+- OECD
+- IMF
+- UNDP
+- African Development Bank
+- Smart Africa
+- AUDA-NEPAD
+
+---
+
+## Policy Documents
+
+Government policies
+
+Strategies
+
+Frameworks
+
+White Papers
+
+National Plans
+
+---
+
+## International Standards
+
+Examples
+
+- ISO
+- IEEE
+- OECD AI Principles
+- UNESCO AI Ethics
+- ITU
+- Open Contracting Data Standard
+
+---
+
+## Datasets
+
+Public datasets supporting institutional research.
+
+---
+
+## Bibliography
+
+The master BibTeX database supporting all research papers.
+
+---
+
+## Citation Style
+
+Preferred citation formats.
+
+---
+
+## Vision
+
+Build the world's largest curated reference library on institutional capability and Digital Public Infrastructure.
+books.md
+# Foundational Books
+
+## Institutional Economics
+
+- Douglass North
+- Geoffrey Hodgson
+- Oliver Williamson
+
+## State Capability
+
+- Peter Evans
+- Francis Fukuyama
+- Matt Andrews
+- Lant Pritchett
+
+## Governance
+
+- Elinor Ostrom
+- Herbert Simon
+- James March
+
+## Industrial Policy
+
+- Dani Rodrik
+- Ha-Joon Chang
+- Michael Porter
+
+## Public Administration
+
+- Christopher Hood
+- Pollitt & Bouckaert
+
+## Systems Thinking
+
+- Donella Meadows
+- Peter Senge
+journal-articles.md
+# Journal Articles
+
+Topics
+
+- Governance
+- Procurement
+- Digital Government
+- Digital Public Infrastructure
+- AI Governance
+- Public Administration
+- Institutional Economics
+- State Capability
+- Coordination
+- Institutional Memory
+working-papers.md
+# Working Papers
+
+Sources
+
+- NBER
+- SSRN
+- World Bank Working Papers
+- OECD Working Papers
+- AfDB Working Papers
+- Brookings
+- ODI
+reports.md
+# Institutional Reports
+
+Primary Sources
+
+- World Bank
+- IMF
+- OECD
+- UNDP
+- African Development Bank
+- AU
+- Smart Africa
+- Tony Blair Institute
+- Centre for Digital Public Infrastructure
+
+Annual reports
+
+Flagship reports
+
+Country diagnostics
+
+Governance reports
+
+Digital economy reports
+policy-documents.md
+# Policy Documents
+
+Examples
+
+National AI Strategies
+
+Digital Government Strategies
+
+Procurement Laws
+
+Digital Identity Policies
+
+National Development Plans
+
+Industrial Policies
+
+Public Finance Regulations
+international-standards.md
+# International Standards
+
+Examples
+
+ISO
+
+IEEE
+
+UNESCO AI Recommendation
+
+OECD AI Principles
+
+ITU Standards
+
+Open Contracting Data Standard
+
+Open Government Partnership
+
+Digital Public Goods Alliance
+datasets.md
+# Institutional Datasets
+
+Examples
+
+World Governance Indicators
+
+Worldwide Bureaucracy Indicators
+
+Open Contracting Data
+
+World Development Indicators
+
+Government Procurement Data
+
+OECD Governance Data
+
+AfDB Statistics
+
+UN Population Data
+institutions.md
+# Key Institutions
+
+Development Finance
+
+- World Bank
+- African Development Bank
+- IMF
+
+International
+
+- OECD
+- UNDP
+- AUDA-NEPAD
+- Smart Africa
+
+Research
+
+- ODI
+- Brookings
+- CGD
+- TBI
+bibliography.bib
+% Master BibTeX file
+
+@book{north1990,
+  author={North, Douglass C.},
+  title={Institutions, Institutional Change and Economic Performance},
+  year={1990},
+  publisher={Cambridge University Press}
+}
+
+@book{ostrom1990,
+  author={Ostrom, Elinor},
+  title={Governing the Commons},
+  year={1990},
+  publisher={Cambridge University Press}
+}
+citation-style.md
+# Citation Style
+
+Preferred
+
+- APA 7
+- Chicago
+- BibTeX
+
+Reference Manager
+
+- Zotero
+- Mendeley
+- BibTeX
+
+Master bibliography
+
+bibliography.bib
