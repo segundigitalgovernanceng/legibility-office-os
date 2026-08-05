@@ -1,0 +1,337 @@
+# Legibility Office n8n Workflows
+
+## Purpose
+
+This directory contains reusable automation workflows for the Legibility Office Institutional Operating System (IOS).
+
+The workflows demonstrate how institutional intelligence can be operationalized using open-source workflow automation.
+
+---
+
+# Workflow Categories
+
+## Institutional Intelligence
+
+- Institutional Signal Engine
+- Policy Change Detector
+- Governance Monitor
+- Procurement Risk Monitor
+- Institutional Memory Builder
+
+---
+
+## Knowledge Generation
+
+- Research Engine
+- Knowledge Graph Builder
+- Citation Generator
+- Institutional Archive
+
+---
+
+## Public Sector Analytics
+
+- Procurement Dashboard
+- Governance Dashboard
+- Capability Dashboard
+- Digital Public Infrastructure Monitor
+
+---
+
+## AI Governance
+
+- AI Governance Assessment
+- Responsible AI Review
+- Risk Classification
+- Policy Compliance
+
+---
+
+## Communication
+
+- LinkedIn Authority Engine
+- Substack Publishing
+- Newsletter Automation
+- Institutional Comment Engine
+
+---
+
+# Technology
+
+Workflows are compatible with
+
+- n8n
+- OpenAI
+- PostgreSQL
+- Neo4j
+- GitHub
+- Notion
+- Airtable
+- Obsidian
+- Supabase
+
+---
+
+# Repository
+
+https://github.com/segundigitalgovernanceng/legibility-office-os
+
+1. institutional-signal-engine.json
+
+Purpose
+
+Government announcement
+
+↓
+
+Signal Classification
+
+↓
+
+Institutional Layer Detection
+
+↓
+
+Governance Primitive Extraction
+
+↓
+
+Comment Generation
+
+↓
+
+Knowledge Graph Update
+
+↓
+
+Archive
+2. procurement-risk-monitor.json
+
+Purpose
+
+Tender
+
+↓
+
+Supplier
+
+↓
+
+Risk Score
+
+↓
+
+Procurement Analytics
+
+↓
+
+Recommendation
+
+↓
+
+Dashboard
+3. governance-monitor.json
+
+Purpose
+
+Policy
+
+↓
+
+Institution
+
+↓
+
+Governance Primitive
+
+↓
+
+Execution Layer
+
+↓
+
+Institutional Capability
+
+↓
+
+Trend Analysis
+4. institutional-memory-builder.json
+
+Purpose
+
+Research
+
+↓
+
+Metadata
+
+↓
+
+Knowledge Graph
+
+↓
+
+Archive
+
+↓
+
+Institutional Memory
+5. policy-change-detector.json
+
+Purpose
+
+Government websites
+
+↓
+
+RSS
+
+↓
+
+Policy Comparison
+
+↓
+
+Institutional Impact
+
+↓
+
+Alert
+6. dfi-news-monitor.json
+
+Monitor
+
+World Bank
+
+AfDB
+
+UNDP
+
+OECD
+
+AU
+
+Smart Africa
+
+Tony Blair Institute
+
+Centre for Digital Public Infrastructure
+
+↓
+
+Institutional Analysis
+
+↓
+
+Comment Draft
+
+↓
+
+Knowledge Graph
+7. linkedin-authority-engine.json
+
+Purpose
+
+Institution publishes
+
+↓
+
+Signal Engine
+
+↓
+
+Institutional Analysis
+
+↓
+
+Comment
+
+↓
+
+Approval
+
+↓
+
+LinkedIn
+8. institutional-research-engine.json
+
+Purpose
+
+Institutional Signal
+
+↓
+
+Research Questions
+
+↓
+
+Paper Ideas
+
+↓
+
+Framework
+
+↓
+
+Repository
+9. capability-dashboard.json
+
+Tracks
+
+Governance
+
+Procurement
+
+DPI
+
+Institutional Memory
+
+Capability
+
+Coordination
+
+↓
+
+Dashboard
+10. ai-governance-review.json
+
+Purpose
+
+AI System
+
+↓
+
+Governance Review
+
+↓
+
+Risk Assessment
+
+↓
+
+Explainability
+
+↓
+
+Recommendations
+11. ios-digital-twin.json
+
+Purpose
+
+Institution
+
+↓
+
+Digital Twin
+
+↓
+
+Simulation
+
+↓
+
+Capability Analysis
+
+↓
+
+Policy Recommendations
