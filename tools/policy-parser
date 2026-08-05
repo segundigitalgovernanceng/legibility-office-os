@@ -1,0 +1,261 @@
+api/
+└── policy-parser/
+    ├── README.md
+    ├── openapi.yaml
+    ├── package.json
+    ├── server.js
+    ├── parser.js
+    ├── policy-schema.json
+    ├── policy-output-schema.json
+    ├── examples/
+    │   ├── sample-policy.md
+    │   └── sample-output.json
+    └── tests/
+README.md
+# Policy Parser API
+
+The Policy Parser converts institutional policy documents into structured, machine-readable JSON compatible with the Legibility Office Institutional Operating System (IOS).
+
+The parser enables institutional policies to become searchable, analyzable, interoperable, and usable by AI systems.
+
+---
+
+## Features
+
+- Markdown policy parsing
+- PDF policy extraction (future)
+- JSON normalization
+- Metadata extraction
+- Governance primitive identification
+- Policy tagging
+- Capability classification
+- Institutional graph integration
+
+---
+
+## Workflow
+
+```
+Policy Document
+
+↓
+
+Parser
+
+↓
+
+Section Extraction
+
+↓
+
+Metadata Extraction
+
+↓
+
+Governance Classification
+
+↓
+
+JSON Output
+
+↓
+
+Knowledge Graph
+```
+
+---
+
+## Endpoints
+
+POST /parse
+
+POST /validate
+
+GET /schema
+
+GET /health
+openapi.yaml
+openapi: 3.0.3
+
+info:
+  title: Policy Parser API
+  version: 1.0.0
+
+paths:
+
+  /parse:
+    post:
+      summary: Parse policy document
+
+  /validate:
+    post:
+      summary: Validate parsed policy
+
+  /schema:
+    get:
+      summary: Retrieve policy schema
+
+  /health:
+    get:
+      summary: Health check
+package.json
+{
+  "name": "policy-parser",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^13.0.0"
+  }
+}
+server.js
+const express = require("express");
+const parser = require("./parser");
+
+const app = express();
+
+app.use(express.json());
+
+app.post("/parse", (req, res) => {
+    const result = parser.parse(req.body.text);
+
+    res.json(result);
+});
+
+app.get("/health", (req, res) => {
+    res.json({
+        status: "running"
+    });
+});
+
+app.listen(8081);
+parser.js
+function parse(text) {
+
+    return {
+
+        title: "Policy",
+
+        sections: [],
+
+        governancePrimitives: [],
+
+        standards: [],
+
+        risks: [],
+
+        metadata: {}
+
+    };
+
+}
+
+module.exports = {
+
+    parse
+
+};
+policy-schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+  "title": "Institutional Policy",
+
+  "type": "object",
+
+  "required": [
+
+    "title",
+
+    "purpose",
+
+    "scope"
+
+  ]
+}
+policy-output-schema.json
+{
+  "title": "",
+
+  "purpose": "",
+
+  "scope": "",
+
+  "governancePrimitives": [],
+
+  "standards": [],
+
+  "capabilities": [],
+
+  "risks": [],
+
+  "metadata": {
+
+    "version": "",
+
+    "owner": "",
+
+    "effectiveDate": ""
+
+  }
+}
+examples/sample-policy.md
+# Procurement Policy
+
+## Purpose
+
+Improve transparency.
+
+## Scope
+
+Government procurement.
+
+## Principles
+
+Transparency
+
+Accountability
+
+Competition
+examples/sample-output.json
+{
+  "title": "Procurement Policy",
+
+  "purpose": "Improve transparency.",
+
+  "scope": "Government procurement.",
+
+  "governancePrimitives": [
+
+    "Transparency",
+
+    "Accountability"
+
+  ],
+
+  "capabilities": [
+
+    "Procurement"
+
+  ]
+}
+
+Policy Document
+        │
+        ▼
+Policy Parser
+        │
+        ▼
+Structured JSON
+        │
+        ▼
+Institutional Knowledge Graph
+        │
+        ▼
+Institutional Memory
+        │
+        ▼
+AI Governance Assistant
+        │
+        ▼
+Policy Intelligence
