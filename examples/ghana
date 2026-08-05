@@ -1,0 +1,244 @@
+# Ghana Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to Ghana's governance ecosystem.
+
+The objective is to illustrate how governance, procurement, Digital Public Infrastructure (DPI), public finance, institutional memory, coordination, and AI governance reinforce one another to create long-term institutional capability.
+
+This document is an illustrative reference architecture.
+
+---
+
+# National Context
+
+Country: Republic of Ghana
+
+Population: ~35 million
+
+Government System: Presidential Constitutional Republic
+
+Administrative Structure
+
+- Central Government
+- 16 Regions
+- Metropolitan, Municipal and District Assemblies (MMDAs)
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Office of the President
+- Parliament of Ghana
+- Office of the Head of Civil Service
+- Ministry of Local Government
+
+Institutional Capability
+
+- Policy Coordination
+- Executive Governance
+- Institutional Accountability
+- Public Sector Reform
+
+---
+
+## Procurement
+
+Examples
+
+- Public Procurement Authority (PPA)
+- Procuring Entities
+- Metropolitan, Municipal and District Assemblies
+
+Capability
+
+- Strategic Procurement
+- Capital Allocation
+- Supplier Governance
+- Contract Performance
+- Value for Money
+
+---
+
+## Public Finance
+
+Examples
+
+- Ministry of Finance
+- Controller and Accountant-General's Department
+- Ghana Revenue Authority
+- Auditor-General
+
+Capability
+
+- Fiscal Governance
+- Budget Management
+- Revenue Administration
+- Public Investment Coordination
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- Ghana Card
+- Ghana.GOV Platform
+- National Digital Property Address System
+- Mobile Money Ecosystem
+- Government Digital Services
+
+Capability
+
+- Digital Identity
+- Authentication
+- Digital Payments
+- Public Service Delivery
+- Government Interoperability
+
+---
+
+## Institutional Memory
+
+Examples
+
+- Public Records and Archives Administration Department (PRAAD)
+- Government Information Systems
+- National Archives
+- Digital Repositories
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Organizational Learning
+- Policy Continuity
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Intelligence
+- Revenue Administration
+- Agricultural Analytics
+- Public Service Automation
+- Financial Risk Analysis
+
+Governance Requirements
+
+- Human Oversight
+- Explainability
+- Accountability
+- Transparency
+- Continuous Monitoring
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Digital Identity
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+National Capability
+```
+
+---
+
+# Governance Primitives
+
+Ghana's IOS depends upon
+
+- Identity
+- Trust
+- Standards
+- Evidence
+- Procurement
+- Coordination
+- Accountability
+- Institutional Memory
+- Capital Allocation
+- Risk
+
+---
+
+# Capability Indicators
+
+Illustrative Metrics
+
+- Governance Quality
+- Procurement Integrity
+- Budget Execution
+- Digital Service Adoption
+- Public Trust
+- Institutional Learning
+- Service Delivery Performance
+- Digital Public Infrastructure Maturity
+
+---
+
+# Institutional Opportunities
+
+Potential capability improvements
+
+- AI-assisted procurement monitoring
+- Cross-government interoperability
+- Institutional knowledge graph
+- Procurement analytics
+- Digital identity integration
+- Public finance interoperability
+- AI governance architecture
+- Institutional capability benchmarking
+
+---
+
+# Example Research Questions
+
+- How can procurement become a strategic capability for Ghana's industrial transformation?
+
+- How can Digital Public Infrastructure improve public sector coordination?
+
+- What institutional architecture best supports long-term competitiveness?
+
+- How should AI governance evolve within Ghana's public institutions?
+
+- How can institutional memory improve policy continuity across administrations?
+
+---
+
+# Future Work
+
+Future releases may include
+
+- Institutional capability maps
+- Procurement workflows
+- Governance dashboards
+- AI governance implementation models
+- Digital Public Infrastructure architecture
+- Machine-readable institutional models
+- n8n institutional automation workflows
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
