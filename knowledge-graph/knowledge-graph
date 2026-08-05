@@ -1,0 +1,312 @@
+Create:
+
+api/
+└── knowledge-graph/
+    ├── README.md
+    ├── openapi.yaml
+    ├── package.json
+    ├── server.js
+    ├── graph.js
+    ├── ontology.json
+    ├── node-types.json
+    ├── edge-types.json
+    ├── graph-schema.json
+    ├── examples/
+    │   ├── graph.json
+    │   ├── institution.json
+    │   └── query.json
+    └── tests/
+README.md
+# Institutional Knowledge Graph API
+
+The Knowledge Graph API is the semantic intelligence layer of the Legibility Office Institutional Operating System (IOS).
+
+It stores and queries relationships between institutions, governance frameworks, procurement systems, Digital Public Infrastructure (DPI), AI systems, policies, standards, capabilities, datasets, and institutional memory.
+
+---
+
+## Purpose
+
+The graph enables institutions to become machine-readable.
+
+It supports
+
+- Institutional intelligence
+- Semantic search
+- Policy reasoning
+- Dependency analysis
+- Institutional memory
+- AI assistants
+- Governance analytics
+
+---
+
+## Architecture
+
+```
+Policies
+
+↓
+
+Parser
+
+↓
+
+Knowledge Graph
+
+↓
+
+Validator
+
+↓
+
+Governance Score
+
+↓
+
+Institutional Intelligence
+```
+
+---
+
+## Endpoints
+
+POST /nodes
+
+POST /edges
+
+POST /query
+
+POST /search
+
+GET /graph
+
+GET /ontology
+
+GET /health
+openapi.yaml
+openapi: 3.0.3
+
+info:
+  title: Institutional Knowledge Graph API
+  version: 1.0.0
+
+paths:
+
+  /nodes:
+    post:
+      summary: Add node
+
+  /edges:
+    post:
+      summary: Add relationship
+
+  /query:
+    post:
+      summary: Query graph
+
+  /search:
+    post:
+      summary: Semantic search
+
+  /graph:
+    get:
+      summary: Retrieve graph
+
+  /ontology:
+    get:
+      summary: Retrieve ontology
+
+  /health:
+    get:
+      summary: Health check
+package.json
+{
+  "name": "knowledge-graph",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
+server.js
+const express = require("express");
+const graph = require("./graph");
+
+const app = express();
+
+app.use(express.json());
+
+app.post("/query", (req, res) => {
+
+    res.json(graph.query(req.body));
+
+});
+
+app.get("/health", (req, res) => {
+
+    res.json({
+
+        status: "running"
+
+    });
+
+});
+
+app.listen(8084);
+graph.js
+function query(request){
+
+    return{
+
+        nodes:[],
+
+        edges:[],
+
+        results:[]
+
+    };
+
+}
+
+module.exports={query};
+ontology.json
+{
+  "ontology":"Legibility Office Institutional Ontology",
+
+  "version":"1.0",
+
+  "domains":[
+    "Governance",
+    "Procurement",
+    "Capability",
+    "Digital Public Infrastructure",
+    "AI Governance",
+    "Institutional Memory",
+    "Risk",
+    "Standards"
+  ]
+}
+node-types.json
+{
+  "nodeTypes":[
+    "Country",
+    "Institution",
+    "Ministry",
+    "Agency",
+    "Policy",
+    "Framework",
+    "Standard",
+    "Capability",
+    "Dataset",
+    "KnowledgeAsset",
+    "AIModel",
+    "DPISystem",
+    "Supplier"
+  ]
+}
+edge-types.json
+{
+  "edgeTypes":[
+    "governs",
+    "implements",
+    "coordinates",
+    "depends_on",
+    "supports",
+    "owns",
+    "funds",
+    "regulates",
+    "shares_data_with",
+    "integrates_with",
+    "strengthens",
+    "inherits_from",
+    "audits",
+    "monitors"
+  ]
+}
+graph-schema.json
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+
+  "title":"Institutional Knowledge Graph",
+
+  "required":[
+    "nodes",
+    "edges"
+  ]
+}
+examples/graph.json
+{
+  "nodes":[
+    {
+      "id":"nigeria",
+
+      "type":"Country",
+
+      "name":"Nigeria"
+    },
+    {
+      "id":"bpp",
+
+      "type":"Agency",
+
+      "name":"Bureau of Public Procurement"
+    },
+    {
+      "id":"procurement",
+
+      "type":"Capability",
+
+      "name":"Procurement"
+    }
+  ],
+
+  "edges":[
+    {
+      "source":"bpp",
+
+      "target":"procurement",
+
+      "relationship":"implements"
+    }
+  ]
+}
+examples/query.json
+{
+  "query":"Institutions implementing Procurement Framework"
+}
+
+
+The Knowledge Graph API is the semantic core of the IOS ecosystem.
+
+Its role is to connect every institutional artifact into a unified graph:
+
+Documents
+      │
+      ▼
+Policy Parser
+      │
+      ▼
+Knowledge Graph
+      │
+      ├──────── Institutions
+      ├──────── Governance
+      ├──────── Procurement
+      ├──────── Standards
+      ├──────── AI
+      ├──────── DPI
+      ├──────── Capability
+      └──────── Institutional Memory
+              │
+              ▼
+Semantic Search
+      │
+      ▼
+IOS Validator
+      │
+      ▼
+Governance Score
+      │
+      ▼
+Institutional Intelligence
+
+With this component, Legibility Office becomes more than a collection of documents and APIs. It becomes a semantic institutional platform, where policies, institutions, capabilities, and governance structures are represented as a connected knowledge graph that can power search, analytics, digital twins, and AI-assisted public administration.
