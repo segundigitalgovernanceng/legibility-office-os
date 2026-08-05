@@ -1,0 +1,325 @@
+Create:
+
+knowledge-graph/
+└── relationships/
+    ├── README.md
+    ├── governance.json
+    ├── procurement.json
+    ├── capability.json
+    ├── digital-public-infrastructure.json
+    ├── ai-governance.json
+    ├── institutional-memory.json
+    ├── interoperability.json
+    ├── finance.json
+    ├── risk.json
+    ├── policy.json
+    ├── standards.json
+    ├── coordination.json
+    ├── ontology.json
+    └── relationship-schema.json
+README.md
+# Institutional Knowledge Graph Relationships
+
+Relationships define how entities interact within the Legibility Office Institutional Operating System (IOS).
+
+While entities describe **what exists**, relationships describe **how institutions function**.
+
+---
+
+## Relationship Domains
+
+- Governance
+- Procurement
+- Capability
+- Digital Public Infrastructure
+- AI Governance
+- Institutional Memory
+- Interoperability
+- Finance
+- Risk
+- Policy
+- Standards
+- Coordination
+
+---
+
+## Graph Model
+
+```
+Entities
+
+↓
+
+Relationships
+
+↓
+
+Institutional Graph
+
+↓
+
+Institutional Intelligence
+
+↓
+
+Capability
+```
+governance.json
+[
+  {
+    "source": "Institution",
+    "target": "Governance Framework",
+    "relationship": "implements"
+  },
+  {
+    "source": "Board",
+    "target": "Institution",
+    "relationship": "governs"
+  },
+  {
+    "source": "Audit",
+    "target": "Institution",
+    "relationship": "assures"
+  }
+]
+procurement.json
+[
+  {
+    "source": "Institution",
+    "target": "Supplier",
+    "relationship": "procures_from"
+  },
+  {
+    "source": "Procurement Authority",
+    "target": "Institution",
+    "relationship": "regulates"
+  },
+  {
+    "source": "Contract",
+    "target": "Supplier",
+    "relationship": "binds"
+  }
+]
+capability.json
+[
+  {
+    "source": "Institution",
+    "target": "Capability",
+    "relationship": "develops"
+  },
+  {
+    "source": "Capability",
+    "target": "Public Value",
+    "relationship": "creates"
+  }
+]
+digital-public-infrastructure.json
+[
+  {
+    "source": "Institution",
+    "target": "Digital Identity",
+    "relationship": "uses"
+  },
+  {
+    "source": "Institution",
+    "target": "Payments",
+    "relationship": "uses"
+  },
+  {
+    "source": "Institution",
+    "target": "Data Exchange",
+    "relationship": "shares_data_with"
+  }
+]
+ai-governance.json
+[
+  {
+    "source": "Institution",
+    "target": "AI System",
+    "relationship": "deploys"
+  },
+  {
+    "source": "AI Governance",
+    "target": "AI System",
+    "relationship": "governs"
+  },
+  {
+    "source": "Human Oversight",
+    "target": "AI System",
+    "relationship": "supervises"
+  }
+]
+institutional-memory.json
+[
+  {
+    "source": "Institution",
+    "target": "Knowledge Asset",
+    "relationship": "creates"
+  },
+  {
+    "source": "Knowledge Asset",
+    "target": "Institution",
+    "relationship": "strengthens"
+  }
+]
+interoperability.json
+[
+  {
+    "source": "Institution",
+    "target": "Institution",
+    "relationship": "interoperates_with"
+  },
+  {
+    "source": "API",
+    "target": "Data Exchange",
+    "relationship": "supports"
+  }
+]
+finance.json
+[
+  {
+    "source": "Treasury",
+    "target": "Institution",
+    "relationship": "funds"
+  },
+  {
+    "source": "Budget",
+    "target": "Programme",
+    "relationship": "allocates"
+  }
+]
+risk.json
+[
+  {
+    "source": "Risk Register",
+    "target": "Institution",
+    "relationship": "monitors"
+  },
+  {
+    "source": "Risk",
+    "target": "Capability",
+    "relationship": "threatens"
+  }
+]
+policy.json
+[
+  {
+    "source": "Policy",
+    "target": "Framework",
+    "relationship": "implements"
+  },
+  {
+    "source": "Framework",
+    "target": "Standard",
+    "relationship": "references"
+  }
+]
+standards.json
+[
+  {
+    "source": "Standard",
+    "target": "Institution",
+    "relationship": "applies_to"
+  },
+  {
+    "source": "Institution",
+    "target": "Standard",
+    "relationship": "complies_with"
+  }
+]
+coordination.json
+[
+  {
+    "source": "Ministry",
+    "target": "Agency",
+    "relationship": "coordinates"
+  },
+  {
+    "source": "Agency",
+    "target": "Regulator",
+    "relationship": "collaborates_with"
+  }
+]
+ontology.json
+{
+  "relationshipTypes": [
+    "governs",
+    "implements",
+    "coordinates",
+    "regulates",
+    "supports",
+    "depends_on",
+    "owns",
+    "funds",
+    "procures_from",
+    "shares_data_with",
+    "interoperates_with",
+    "deploys",
+    "supervises",
+    "creates",
+    "strengthens",
+    "complies_with",
+    "references",
+    "monitors",
+    "threatens",
+    "collaborates_with"
+  ]
+}
+relationship-schema.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institutional Relationship",
+  "type": "object",
+  "properties": {
+    "source": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "planned",
+        "retired"
+      ]
+    }
+  },
+  "required": [
+    "source",
+    "target",
+    "relationship"
+  ]
+}
+
+
+With both entities/ and relationships/ in place, your knowledge graph reaches a mature semantic structure:
+
+Ontology
+      │
+      ▼
+Entities
+      │
+      ▼
+Relationships
+      │
+      ▼
+Institutional Knowledge Graph
+      │
+      ▼
+Institutional Intelligence
+      │
+      ▼
+AI Assistants
+      │
+      ▼
+Governance Analytics
+
+This separation mirrors best practices in enterprise knowledge graphs and graph databases (e.g., Neo4j, RDF/OWL), making the IOS ready for semantic reasoning, dependency analysis, interoperability mapping, and future AI-powered institutional decision support.
