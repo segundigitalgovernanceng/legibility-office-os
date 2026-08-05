@@ -1,0 +1,322 @@
+Create:
+
+knowledge-graph/
+└── entities/
+    ├── README.md
+    ├── countries.json
+    ├── institutions.json
+    ├── ministries.json
+    ├── agencies.json
+    ├── regulators.json
+    ├── frameworks.json
+    ├── policies.json
+    ├── standards.json
+    ├── capabilities.json
+    ├── dpi.json
+    ├── ai-systems.json
+    ├── procurement.json
+    ├── suppliers.json
+    ├── datasets.json
+    ├── knowledge-assets.json
+    └── ontology.json
+README.md
+# Institutional Knowledge Graph Entities
+
+This directory contains the canonical entities used by the Legibility Office Institutional Knowledge Graph.
+
+Entities represent the fundamental building blocks of the Institutional Operating System (IOS).
+
+Every graph node belongs to one entity class.
+
+---
+
+## Entity Categories
+
+- Countries
+- Institutions
+- Ministries
+- Agencies
+- Regulators
+- Frameworks
+- Policies
+- Standards
+- Capabilities
+- Digital Public Infrastructure
+- AI Systems
+- Procurement Systems
+- Suppliers
+- Datasets
+- Knowledge Assets
+
+---
+
+## Relationship
+
+```
+Ontology
+
+↓
+
+Entity
+
+↓
+
+Relationship
+
+↓
+
+Knowledge Graph
+
+↓
+
+Institutional Intelligence
+```
+countries.json
+[
+  {
+    "id": "country-nigeria",
+    "name": "Nigeria",
+    "type": "Country"
+  },
+  {
+    "id": "country-kenya",
+    "name": "Kenya",
+    "type": "Country"
+  },
+  {
+    "id": "country-rwanda",
+    "name": "Rwanda",
+    "type": "Country"
+  },
+  {
+    "id": "country-ghana",
+    "name": "Ghana",
+    "type": "Country"
+  }
+]
+institutions.json
+[
+  {
+    "id": "institution-ministry-finance",
+    "name": "Ministry of Finance",
+    "type": "Institution"
+  },
+  {
+    "id": "institution-central-bank",
+    "name": "Central Bank",
+    "type": "Institution"
+  },
+  {
+    "id": "institution-procurement-authority",
+    "name": "Procurement Authority",
+    "type": "Institution"
+  }
+]
+ministries.json
+[
+  {
+    "id": "min-finance",
+    "name": "Ministry of Finance"
+  },
+  {
+    "id": "min-health",
+    "name": "Ministry of Health"
+  },
+  {
+    "id": "min-education",
+    "name": "Ministry of Education"
+  }
+]
+agencies.json
+[
+  {
+    "id": "agency-bpp",
+    "name": "Bureau of Public Procurement"
+  },
+  {
+    "id": "agency-digital-id",
+    "name": "Digital Identity Authority"
+  }
+]
+regulators.json
+[
+  {
+    "id": "reg-central-bank",
+    "name": "Central Bank"
+  },
+  {
+    "id": "reg-data-protection",
+    "name": "Data Protection Authority"
+  }
+]
+frameworks.json
+[
+  {
+    "id": "framework-governance",
+    "name": "Governance Framework"
+  },
+  {
+    "id": "framework-procurement",
+    "name": "Procurement Framework"
+  },
+  {
+    "id": "framework-ios",
+    "name": "Institutional Operating System"
+  }
+]
+policies.json
+[
+  {
+    "id": "policy-ai",
+    "name": "AI Governance Policy"
+  },
+  {
+    "id": "policy-procurement",
+    "name": "Procurement Policy"
+  }
+]
+standards.json
+[
+  {
+    "id": "standard-governance",
+    "name": "Governance Standards"
+  },
+  {
+    "id": "standard-procurement",
+    "name": "Procurement Standards"
+  }
+]
+capabilities.json
+[
+  {
+    "id": "cap-governance",
+    "name": "Governance"
+  },
+  {
+    "id": "cap-procurement",
+    "name": "Procurement"
+  },
+  {
+    "id": "cap-memory",
+    "name": "Institutional Memory"
+  },
+  {
+    "id": "cap-ai",
+    "name": "AI Governance"
+  }
+]
+dpi.json
+[
+  {
+    "id": "dpi-identity",
+    "name": "Digital Identity"
+  },
+  {
+    "id": "dpi-payments",
+    "name": "Payments"
+  },
+  {
+    "id": "dpi-data-exchange",
+    "name": "Data Exchange"
+  },
+  {
+    "id": "dpi-interoperability",
+    "name": "Interoperability"
+  }
+]
+ai-systems.json
+[
+  {
+    "id": "ai-risk-engine",
+    "name": "Risk Engine"
+  },
+  {
+    "id": "ai-policy-assistant",
+    "name": "Policy Assistant"
+  }
+]
+procurement.json
+[
+  {
+    "id": "proc-planning",
+    "name": "Procurement Planning"
+  },
+  {
+    "id": "proc-contracts",
+    "name": "Contract Management"
+  }
+]
+suppliers.json
+[
+  {
+    "id": "supplier-public",
+    "name": "Public Supplier"
+  },
+  {
+    "id": "supplier-private",
+    "name": "Private Supplier"
+  }
+]
+datasets.json
+[
+  {
+    "id": "dataset-country-capability",
+    "name": "Country Capability Dataset"
+  },
+  {
+    "id": "dataset-governance-signals",
+    "name": "Governance Signals Dataset"
+  }
+]
+knowledge-assets.json
+[
+  {
+    "id": "asset-governance-taxonomy",
+    "name": "Governance Taxonomy"
+  },
+  {
+    "id": "asset-ios-paper",
+    "name": "Institutional Operating System Paper"
+  }
+]
+ontology.json
+{
+  "entityTypes": [
+    "Country",
+    "Institution",
+    "Ministry",
+    "Agency",
+    "Regulator",
+    "Framework",
+    "Policy",
+    "Standard",
+    "Capability",
+    "DPI",
+    "AISystem",
+    "Procurement",
+    "Supplier",
+    "Dataset",
+    "KnowledgeAsset"
+  ]
+}
+
+
+The entities/ directory is your repository's semantic vocabulary. Every node in the knowledge graph should come from this canonical library, ensuring consistency across APIs, datasets, and analytics.
+
+The resulting architecture is:
+
+Ontology
+    │
+    ▼
+Entities
+    │
+    ▼
+Relationships
+    │
+    ▼
+Knowledge Graph
+    │
+    ▼
+Institutional Intelligence
+
+By separating entities from relationships and schemas, you've established a scalable semantic layer that can grow from a handful of institutions to continent-wide governance ecosystems without changing the underlying model.
