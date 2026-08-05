@@ -1,0 +1,301 @@
+research/
+└── datasets/
+    ├── README.md
+    │
+    ├── governance/
+    │   ├── README.md
+    │   ├── world-governance-indicators.csv
+    │   ├── bureaucracy-index.csv
+    │   ├── rule-of-law.csv
+    │   ├── corruption.csv
+    │   └── government-effectiveness.csv
+    │
+    ├── procurement/
+    │   ├── README.md
+    │   ├── open-contracting.csv
+    │   ├── procurement-performance.csv
+    │   ├── supplier-risk.csv
+    │   ├── tender-data.csv
+    │   └── contract-performance.csv
+    │
+    ├── digital-public-infrastructure/
+    │   ├── README.md
+    │   ├── digital-id.csv
+    │   ├── payments.csv
+    │   ├── interoperability.csv
+    │   ├── connectivity.csv
+    │   └── digital-government.csv
+    │
+    ├── public-finance/
+    │   ├── README.md
+    │   ├── budget.csv
+    │   ├── debt.csv
+    │   ├── revenue.csv
+    │   ├── expenditure.csv
+    │   └── fiscal-performance.csv
+    │
+    ├── institutional-capability/
+    │   ├── README.md
+    │   ├── capability-index.csv
+    │   ├── institutional-memory.csv
+    │   ├── coordination.csv
+    │   └── execution.csv
+    │
+    ├── ai-governance/
+    │   ├── README.md
+    │   ├── ai-policies.csv
+    │   ├── ai-readiness.csv
+    │   ├── ai-regulation.csv
+    │   └── ai-risk.csv
+    │
+    ├── countries/
+    │   ├── nigeria.csv
+    │   ├── kenya.csv
+    │   ├── rwanda.csv
+    │   ├── ghana.csv
+    │   ├── south-africa.csv
+    │   ├── egypt.csv
+    │   ├── ethiopia.csv
+    │   └── generic.csv
+    │
+    ├── development-finance/
+    │   ├── world-bank.csv
+    │   ├── afdb.csv
+    │   ├── undp.csv
+    │   ├── oecd.csv
+    │   └── imf.csv
+    │
+    ├── metadata/
+    │   ├── sources.md
+    │   ├── update-log.md
+    │   ├── licenses.md
+    │   └── schema.md
+    │
+    └── data-dictionary.md
+
+
+
+research/datasets/README.md
+# Legibility Office Institutional Datasets
+
+## Purpose
+
+This directory contains structured datasets supporting research on the Institutional Operating System (IOS).
+
+The datasets are intended for research, benchmarking, policy analysis, and institutional capability assessment.
+
+---
+
+# Dataset Categories
+
+## Governance
+
+Measures institutional quality.
+
+Examples
+
+- Government Effectiveness
+- Rule of Law
+- Regulatory Quality
+- Voice and Accountability
+
+---
+
+## Procurement
+
+Measures procurement capability.
+
+Examples
+
+- Tender Performance
+- Contract Delivery
+- Supplier Risk
+- Procurement Integrity
+
+---
+
+## Digital Public Infrastructure
+
+Measures digital capability.
+
+Examples
+
+- Digital Identity
+- Payments
+- Interoperability
+- Digital Government
+
+---
+
+## Public Finance
+
+Examples
+
+- Budget Execution
+- Revenue
+- Debt
+- Fiscal Performance
+
+---
+
+## Institutional Capability
+
+Examples
+
+- Coordination
+- Institutional Memory
+- Execution
+- Capability Scores
+
+---
+
+## AI Governance
+
+Examples
+
+- AI Readiness
+- AI Regulation
+- Responsible AI
+- AI Risk
+
+---
+
+## Countries
+
+Country implementation datasets supporting IOS benchmarking.
+
+---
+
+## Development Finance
+
+Institutional datasets from
+
+- World Bank
+- African Development Bank
+- UNDP
+- OECD
+- IMF
+
+---
+
+## Vision
+
+Create the world's largest open institutional capability dataset.
+governance/README.md
+# Governance Datasets
+
+Purpose
+
+Measure institutional governance performance.
+
+Potential Sources
+
+- World Governance Indicators
+- OECD
+- UNDP
+- National Statistics
+procurement/README.md
+# Procurement Datasets
+
+Purpose
+
+Support procurement intelligence research.
+
+Potential Sources
+
+- Open Contracting Partnership
+- National Procurement Authorities
+- World Bank Procurement Data
+digital-public-infrastructure/README.md
+# Digital Public Infrastructure Datasets
+
+Purpose
+
+Benchmark Digital Public Infrastructure.
+
+Domains
+
+- Identity
+- Payments
+- Authentication
+- Interoperability
+institutional-capability/README.md
+# Institutional Capability
+
+Purpose
+
+Measure institutional capability across countries.
+
+Domains
+
+- Governance
+- Procurement
+- Coordination
+- Institutional Memory
+- DPI
+ai-governance/README.md
+# AI Governance
+
+Purpose
+
+Benchmark AI governance.
+
+Indicators
+
+- AI Strategy
+- Regulation
+- Readiness
+- Institutional Adoption
+metadata/sources.md
+# Data Sources
+
+Primary Sources
+
+- World Bank
+- African Development Bank
+- IMF
+- OECD
+- UNDP
+- UNESCO
+- Open Contracting Partnership
+- Digital Public Goods Alliance
+metadata/schema.md
+# Dataset Schema
+
+Standard Fields
+
+Country
+
+Institution
+
+Year
+
+Source
+
+Indicator
+
+Value
+
+Methodology
+
+Confidence
+
+License
+data-dictionary.md
+# Data Dictionary
+
+Every dataset should define
+
+Variable
+
+Definition
+
+Source
+
+Unit
+
+Update Frequency
+
+Confidence
+
+Methodology
