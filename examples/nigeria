@@ -1,0 +1,225 @@
+# Nigeria Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to Nigeria's governance ecosystem.
+
+It is **illustrative**, not prescriptive.
+
+The purpose is to show how institutional capability can be modeled across governance, procurement, Digital Public Infrastructure (DPI), public finance, and institutional coordination.
+
+---
+
+# National Context
+
+Country: Federal Republic of Nigeria
+
+Population: ~240 million
+
+Government System: Federal Presidential Republic
+
+Administrative Structure:
+
+- Federal Government
+- 36 States
+- Federal Capital Territory
+- 774 Local Government Areas
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Federal Executive Council
+- National Assembly
+- Office of the Secretary to the Government of the Federation
+- Civil Service
+
+Institutional Capability
+
+- Policy Coordination
+- Regulatory Governance
+- Executive Accountability
+- Institutional Memory
+
+---
+
+## Procurement
+
+Examples
+
+- Bureau of Public Procurement (BPP)
+- MDAs
+- State Procurement Agencies
+
+Capability
+
+- Capital Allocation
+- Competitive Procurement
+- Contract Management
+- Supplier Governance
+
+---
+
+## Public Finance
+
+Examples
+
+- Federal Ministry of Finance
+- Budget Office
+- Debt Management Office
+- Office of the Accountant-General
+
+Capability
+
+- Budget Coordination
+- Fiscal Management
+- Public Investment
+- Treasury Operations
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- NIN
+- BVN
+- National Identity Management Commission
+- Nigeria Inter-Bank Settlement System
+- Government Service Platforms
+
+Capability
+
+- Digital Identity
+- Payments
+- Authentication
+- Data Exchange
+
+---
+
+## Institutional Memory
+
+Examples
+
+- National Archives
+- Public Records
+- Government Databases
+- Policy Repositories
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Organizational Learning
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Risk Analysis
+- Budget Forecasting
+- Policy Simulation
+- Fraud Detection
+- Service Delivery Optimization
+
+Governance Requirements
+
+- Human Oversight
+- Explainability
+- Auditability
+- Public Accountability
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Identity Infrastructure
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+Continuous Capability Development
+```
+
+---
+
+# Governance Primitives
+
+The Nigerian IOS depends upon:
+
+- Identity
+- Trust
+- Evidence
+- Standards
+- Coordination
+- Procurement
+- Capital Allocation
+- Institutional Memory
+- Accountability
+- Risk
+
+---
+
+# Capability Indicators
+
+Example Metrics
+
+- Procurement Integrity
+- Budget Execution
+- Contract Delivery
+- Digital Identity Coverage
+- Public Service Accessibility
+- Institutional Learning
+- Governance Quality
+- Public Trust
+
+---
+
+# Example Research Questions
+
+- How can procurement become Nigeria's primary capability-building institution?
+
+- How can Digital Public Infrastructure improve intergovernmental coordination?
+
+- What institutional operating system best supports industrial policy?
+
+- How should AI governance evolve inside Nigerian public institutions?
+
+- How can institutional memory reduce policy discontinuity?
+
+---
+
+# Future Work
+
+Future versions will include:
+
+- Machine-readable institutional maps
+- Procurement workflows
+- Digital Public Infrastructure architecture
+- Governance capability models
+- AI governance templates
+- n8n automation workflows
+- National capability dashboards
+
+---
+
+Legibility Office
+
+Making institutions legible.
+Building institutional operating systems for the 21st century.
