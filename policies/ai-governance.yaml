@@ -1,0 +1,235 @@
+version: "1.0"
+
+institutional_operating_system:
+
+  ai_governance:
+
+    metadata:
+      framework: "Legibility Office Institutional Operating System"
+      version: "1.0"
+      owner: "Legibility Office"
+      license: "Apache-2.0"
+
+    mission:
+      "Ensure Artificial Intelligence strengthens institutional capability, accountability, transparency, and public trust while remaining human-governed."
+
+    principles:
+
+      human_agency: true
+      transparency: true
+      explainability: true
+      accountability: true
+      fairness: true
+      auditability: true
+      privacy: true
+      interoperability: true
+      institutional_memory: true
+      public_interest: true
+
+    governance_primitives:
+
+      - Authority
+      - Identity
+      - Trust
+      - Evidence
+      - Consent
+      - Accountability
+      - Standards
+      - Knowledge
+      - Institutional Memory
+      - Coordination
+      - Risk
+      - Transparency
+
+    ai_lifecycle:
+
+      design:
+
+        required:
+          - Problem Definition
+          - Public Interest Assessment
+          - Risk Classification
+          - Stakeholder Review
+
+      development:
+
+        required:
+          - Model Documentation
+          - Data Lineage
+          - Version Control
+          - Security Review
+
+      testing:
+
+        required:
+          - Bias Assessment
+          - Explainability Testing
+          - Performance Validation
+          - Human Review
+
+      deployment:
+
+        required:
+          - Governance Approval
+          - Human Oversight
+          - Monitoring Plan
+          - Audit Logging
+
+      operation:
+
+        required:
+          - Continuous Monitoring
+          - Drift Detection
+          - Incident Reporting
+          - Feedback Collection
+
+      retirement:
+
+        required:
+          - Archive Model
+          - Preserve Decision Logs
+          - Institutional Memory Update
+          - Knowledge Transfer
+
+    human_oversight:
+
+      mandatory_for:
+
+        - Procurement Decisions
+        - Budget Decisions
+        - Public Policy
+        - Regulatory Enforcement
+        - Public Service Eligibility
+        - National Security
+        - Healthcare
+        - Justice
+
+      override_enabled: true
+
+      operator_dashboard: true
+
+    explainability:
+
+      required: true
+
+      decision_trace_required: true
+
+      reasoning_log_required: true
+
+      confidence_score_required: true
+
+      evidence_required: true
+
+    data_governance:
+
+      lawful_collection: true
+
+      privacy_preservation: true
+
+      data_minimization: true
+
+      consent_tracking: true
+
+      data_lineage: true
+
+      retention_policy: true
+
+    institutional_memory:
+
+      store_model_versions: true
+
+      preserve_decision_logs: true
+
+      preserve_training_history: true
+
+      preserve_policy_changes: true
+
+      update_knowledge_graph: true
+
+    interoperability:
+
+      api_first: true
+
+      open_standards: true
+
+      semantic_interoperability: true
+
+      public_sector_integration: true
+
+      dpi_compatible: true
+
+    risk_management:
+
+      identify: true
+
+      assess: true
+
+      mitigate: true
+
+      monitor: true
+
+      report: true
+
+    prohibited_behaviour:
+
+      autonomous_public_policy: true
+
+      autonomous_budget_authority: true
+
+      autonomous_procurement_award: true
+
+      hidden_decision_logic: true
+
+      unlogged_model_changes: true
+
+    monitoring:
+
+      bias_monitoring: true
+
+      performance_monitoring: true
+
+      governance_monitoring: true
+
+      security_monitoring: true
+
+      institutional_learning: true
+
+    capability_thresholds:
+
+      explainability_score: 90
+
+      governance_score: 90
+
+      auditability_score: 95
+
+      transparency_score: 90
+
+      institutional_memory_score: 95
+
+    review_cycle:
+
+      monthly_monitoring: true
+
+      quarterly_audit: true
+
+      annual_model_review: true
+
+      continuous_learning: true
+
+    success_metrics:
+
+      public_trust
+
+      governance_integrity
+
+      explainability
+
+      institutional_capability
+
+      accountability
+
+      transparency
+
+      audit_completeness
+
+      human_oversight
