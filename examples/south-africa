@@ -1,0 +1,251 @@
+# South Africa Institutional Operating System (IOS) Example
+
+## Overview
+
+This example demonstrates how the Legibility Office Institutional Operating System (IOS) can be applied to South Africa's governance ecosystem.
+
+The objective is to illustrate how governance, procurement, Digital Public Infrastructure (DPI), public finance, institutional memory, intergovernmental coordination, and AI governance combine to strengthen national capability and long-term competitiveness.
+
+This document is an illustrative institutional reference architecture.
+
+---
+
+# National Context
+
+Country: Republic of South Africa
+
+Population: ~64 million
+
+Government System: Constitutional Parliamentary Republic
+
+Administrative Structure
+
+- National Government
+- 9 Provinces
+- Metropolitan Municipalities
+- District Municipalities
+- Local Municipalities
+
+---
+
+# Institutional Capability Domains
+
+## Governance
+
+Examples
+
+- Presidency
+- Parliament of South Africa
+- Department of Public Service and Administration
+- National Planning Commission
+- Provincial Governments
+
+Institutional Capability
+
+- Policy Coordination
+- Strategic Planning
+- Executive Accountability
+- Institutional Reform
+
+---
+
+## Procurement
+
+Examples
+
+- National Treasury
+- Office of the Chief Procurement Officer
+- Provincial Treasuries
+- Municipal Procurement Units
+
+Capability
+
+- Strategic Procurement
+- Capital Allocation
+- Supplier Governance
+- Infrastructure Delivery
+- Value for Money
+
+---
+
+## Public Finance
+
+Examples
+
+- National Treasury
+- South African Revenue Service (SARS)
+- Auditor-General South Africa
+- Reserve Bank
+- Provincial Treasuries
+
+Capability
+
+- Fiscal Governance
+- Budget Coordination
+- Revenue Administration
+- Public Investment
+- Financial Accountability
+
+---
+
+## Digital Public Infrastructure
+
+Examples
+
+- Department of Home Affairs Digital Identity
+- e-Government Services
+- National Payment Infrastructure
+- SARS Digital Platforms
+- Government Digital Services
+
+Capability
+
+- Digital Identity
+- Authentication
+- Public Digital Services
+- Secure Payments
+- Government Interoperability
+
+---
+
+## Institutional Memory
+
+Examples
+
+- National Archives
+- Government Knowledge Repositories
+- Departmental Records
+- Digital Information Systems
+
+Capability
+
+- Knowledge Preservation
+- Evidence Management
+- Organizational Learning
+- Policy Continuity
+
+---
+
+## AI Governance
+
+Potential Applications
+
+- Procurement Intelligence
+- Tax Compliance Analytics
+- Infrastructure Monitoring
+- Public Service Automation
+- Risk Detection
+- Regulatory Intelligence
+
+Governance Requirements
+
+- Human Oversight
+- Explainability
+- Transparency
+- Accountability
+- Continuous Monitoring
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Digital Identity
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+National Capability
+```
+
+---
+
+# Governance Primitives
+
+South Africa's IOS depends upon
+
+- Identity
+- Trust
+- Standards
+- Evidence
+- Procurement
+- Coordination
+- Accountability
+- Institutional Memory
+- Capital Allocation
+- Risk
+
+---
+
+# Capability Indicators
+
+Illustrative Metrics
+
+- Governance Quality
+- Procurement Integrity
+- Infrastructure Delivery
+- Budget Execution
+- Public Trust
+- Institutional Learning
+- Digital Service Adoption
+- Digital Public Infrastructure Maturity
+
+---
+
+# Institutional Opportunities
+
+Potential capability improvements
+
+- AI-assisted procurement oversight
+- Cross-government interoperability
+- National institutional knowledge graph
+- Public finance integration
+- Procurement intelligence
+- AI governance framework
+- Institutional capability benchmarking
+- Infrastructure coordination platform
+
+---
+
+# Example Research Questions
+
+- How can procurement strengthen South Africa's industrial competitiveness?
+
+- How can Digital Public Infrastructure improve coordination across national, provincial, and municipal governments?
+
+- What institutional architecture best supports infrastructure execution?
+
+- How should AI governance evolve across South African public institutions?
+
+- How can institutional memory improve governance continuity despite political change?
+
+---
+
+# Future Work
+
+Future releases may include
+
+- Institutional capability maps
+- Procurement workflows
+- Governance dashboards
+- Infrastructure coordination models
+- AI governance implementation guides
+- Machine-readable institutional models
+- n8n institutional automation workflows
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
