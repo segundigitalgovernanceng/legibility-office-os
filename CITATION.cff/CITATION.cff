@@ -1,0 +1,65 @@
+CITATION.cff
+cff-version: 1.2.0
+
+message: >
+  If you use the Legibility Office Institutional Operating System (IOS)
+  in your research, policy development, software, or publications,
+  please cite this repository using the metadata below.
+
+title: "Legibility Office: Institutional Operating System (IOS)"
+
+type: software
+
+authors:
+  - family-names: Ayowole
+    given-names: Segun
+    orcid: "https://orcid.org/0009-0004-0669-1911"
+
+identifiers:
+  - type: url
+    value: "https://github.com/legibilityoffice/ios"
+
+repository-code: "https://github.com/legibilityoffice/ios"
+
+url: "https://github.com/legibilityoffice/ios"
+
+abstract: >
+  The Institutional Operating System (IOS) is an open institutional
+  architecture for governance, procurement, Digital Public Infrastructure,
+  AI governance, capability development, institutional memory,
+  semantic knowledge graphs, and public sector transformation.
+
+keywords:
+  - governance
+  - procurement
+  - institutional operating system
+  - digital public infrastructure
+  - artificial intelligence
+  - AI governance
+  - public sector
+  - capability
+  - interoperability
+  - institutional memory
+  - knowledge graph
+
+license: Apache-2.0
+
+version: "1.0.0"
+
+date-released: 2026-08-03
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Ayowole
+      given-names: Segun
+      orcid: "https://orcid.org/0009-0004-0669-1911"
+
+  title: >
+    Legibility Office: Institutional Operating System (IOS)
+
+  year: 2026
+
+  publisher: GitHub
+
+  url: "https://github.com/legibilityoffice/ios"
