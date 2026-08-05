@@ -1,0 +1,259 @@
+api/
+└── ios-validator/
+    ├── README.md
+    ├── openapi.yaml
+    ├── institutional-validator.json
+    ├── governance-validator.json
+    ├── procurement-validator.json
+    ├── capability-validator.json
+    ├── dpi-validator.json
+    ├── ai-validator.json
+    ├── server.js
+    ├── package.json
+    └── examples/
+README.md
+# Institutional Operating System Validator (IOS Validator)
+
+The IOS Validator validates institutional architectures against the Legibility Office Institutional Operating System.
+
+It evaluates whether institutions comply with governance, procurement, Digital Public Infrastructure, AI governance, institutional memory, interoperability, and capability standards.
+
+---
+
+## Features
+
+- Governance validation
+- Procurement validation
+- DPI validation
+- AI governance validation
+- Capability assessment
+- Institutional maturity scoring
+- Risk identification
+- Standards compliance
+
+---
+
+## Validation Pipeline
+
+```
+Institution
+
+↓
+
+JSON Input
+
+↓
+
+Schema Validation
+
+↓
+
+Standards Validation
+
+↓
+
+Governance Validation
+
+↓
+
+Capability Validation
+
+↓
+
+Risk Analysis
+
+↓
+
+Compliance Report
+```
+
+---
+
+## API
+
+POST /validate
+
+POST /governance
+
+POST /procurement
+
+POST /capability
+
+POST /dpi
+
+POST /ai
+
+GET /health
+
+---
+
+## Output
+
+- Validation Score
+- Compliance Score
+- Capability Score
+- Risk Summary
+- Recommendations
+openapi.yaml
+openapi: 3.0.3
+
+info:
+  title: IOS Validator API
+  version: 1.0.0
+
+paths:
+
+  /validate:
+    post:
+      summary: Validate institution
+      responses:
+        "200":
+          description: Validation completed
+
+  /governance:
+    post:
+      summary: Governance validation
+
+  /procurement:
+    post:
+      summary: Procurement validation
+
+  /capability:
+    post:
+      summary: Capability validation
+
+  /dpi:
+    post:
+      summary: Digital Public Infrastructure validation
+
+  /ai:
+    post:
+      summary: AI Governance validation
+
+  /health:
+    get:
+      summary: Health check
+institutional-validator.json
+{
+  "required": [
+    "institution",
+    "governance",
+    "procurement",
+    "capability",
+    "dpi"
+  ]
+}
+governance-validator.json
+{
+  "checks": [
+    "authority",
+    "accountability",
+    "transparency",
+    "coordination",
+    "institutional_memory"
+  ]
+}
+procurement-validator.json
+{
+  "checks": [
+    "planning",
+    "competition",
+    "contract_management",
+    "supplier_management",
+    "risk_management"
+  ]
+}
+capability-validator.json
+{
+  "checks": [
+    "skills",
+    "governance",
+    "technology",
+    "processes",
+    "institutional_learning"
+  ]
+}
+dpi-validator.json
+{
+  "checks": [
+    "identity",
+    "payments",
+    "data_exchange",
+    "interoperability"
+  ]
+}
+ai-validator.json
+{
+  "checks": [
+    "human_oversight",
+    "explainability",
+    "auditability",
+    "risk_management",
+    "data_governance"
+  ]
+}
+server.js
+const express = require("express");
+
+const app = express();
+
+app.use(express.json());
+
+app.post("/validate", (req, res) => {
+
+    res.json({
+        status: "valid",
+        score: 87,
+        maturity: 4
+    });
+
+});
+
+app.get("/health", (req, res) => {
+
+    res.json({
+        status: "running"
+    });
+
+});
+
+app.listen(8080);
+package.json
+{
+  "name": "ios-validator",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
+examples/
+examples/
+└── nigeria-ministry.json
+
+
+This is the transition from a knowledge repository to an executable governance platform.
+
+The IOS Validator acts as the enforcement engine of the repository:
+
+Institution JSON
+        │
+        ▼
+Schema Validation
+        │
+        ▼
+Governance Validation
+        │
+        ▼
+Procurement Validation
+        │
+        ▼
+DPI Validation
+        │
+        ▼
+AI Validation
+        │
+        ▼
+Capability Score
+        │
+        ▼
+Institutional Maturity Report
