@@ -1,0 +1,204 @@
+schemas/
+└── institutional-graph.json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legibility Office Institutional Knowledge Graph",
+  "description": "Schema for representing institutions, governance relationships, capabilities, Digital Public Infrastructure, procurement, AI governance, and institutional memory within the Institutional Operating System (IOS).",
+  "type": "object",
+  "properties": {
+    "graph": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string",
+          "format": "date"
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/node"
+          }
+        },
+        "edges": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/edge"
+          }
+        }
+      },
+      "required": [
+        "version",
+        "nodes",
+        "edges"
+      ]
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "Country",
+            "Institution",
+            "Ministry",
+            "Agency",
+            "Regulator",
+            "DPI",
+            "Capability",
+            "Policy",
+            "Framework",
+            "Standard",
+            "Dataset",
+            "AI System",
+            "Procurement System",
+            "Knowledge Asset"
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "name"
+      ]
+    },
+    "edge": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string",
+          "enum": [
+            "governs",
+            "implements",
+            "coordinates",
+            "owns",
+            "supports",
+            "depends_on",
+            "funds",
+            "regulates",
+            "procures",
+            "integrates_with",
+            "shares_data_with",
+            "reports_to",
+            "inherits_from",
+            "strengthens",
+            "monitors"
+          ]
+        },
+        "weight": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "active",
+            "planned",
+            "retired"
+          ]
+        }
+      },
+      "required": [
+        "source",
+        "target",
+        "relationship"
+      ]
+    }
+  }
+}
+Example (examples/generic/institutional-graph-example.json)
+{
+  "graph": {
+    "version": "1.0",
+    "nodes": [
+      {
+        "id": "country-ng",
+        "type": "Country",
+        "name": "Nigeria"
+      },
+      {
+        "id": "bpp",
+        "type": "Agency",
+        "name": "Bureau of Public Procurement"
+      },
+      {
+        "id": "procurement-framework",
+        "type": "Framework",
+        "name": "Procurement Framework"
+      },
+      {
+        "id": "digital-id",
+        "type": "DPI",
+        "name": "Digital Identity"
+      },
+      {
+        "id": "institutional-memory",
+        "type": "Capability",
+        "name": "Institutional Memory"
+      }
+    ],
+    "edges": [
+      {
+        "source": "country-ng",
+        "target": "bpp",
+        "relationship": "owns"
+      },
+      {
+        "source": "bpp",
+        "target": "procurement-framework",
+        "relationship": "implements"
+      },
+      {
+        "source": "procurement-framework",
+        "target": "digital-id",
+        "relationship": "depends_on"
+      },
+      {
+        "source": "procurement-framework",
+        "target": "institutional-memory",
+        "relationship": "strengthens"
+      }
+    ]
+  }
+}
+Purpose
+
+This schema enables the repository to evolve into an Institutional Knowledge Graph, where:
+
+Institutions become nodes.
+Policies, standards, frameworks, AI systems, procurement systems, and DPI components are connected through explicit relationships.
+The graph supports querying governance dependencies, institutional capabilities, interoperability, and policy impact.
+
+Potential applications include:
+
+Governance knowledge graphs
+Institutional dependency mapping
+AI-assisted policy reasoning
+Procurement intelligence
+Institutional memory systems
+Digital twins of government
+National capability modeling
