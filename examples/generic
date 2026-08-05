@@ -1,0 +1,325 @@
+# Generic Institutional Operating System (IOS)
+
+## Purpose
+
+This reference implementation provides a country-neutral Institutional Operating System (IOS) architecture that any government, development finance institution, multilateral organization, or public sector reform programme can adapt.
+
+Unlike country-specific examples, this model focuses on universal institutional capabilities rather than specific organizations.
+
+---
+
+# Institutional Operating System
+
+```
+Citizens
+        ↓
+Identity Infrastructure
+        ↓
+Digital Public Infrastructure
+        ↓
+Public Finance
+        ↓
+Procurement
+        ↓
+Government Services
+        ↓
+Institutional Memory
+        ↓
+National Capability
+        ↓
+Industrial Competitiveness
+```
+
+---
+
+# Core Institutional Capabilities
+
+## Governance
+
+Purpose
+
+Provide strategic direction, accountability, policy coherence, and institutional continuity.
+
+Capabilities
+
+- Executive Coordination
+- Policy Design
+- Regulatory Oversight
+- Strategic Planning
+- Public Accountability
+
+---
+
+## Procurement
+
+Purpose
+
+Allocate public resources efficiently while creating national capability.
+
+Capabilities
+
+- Strategic Procurement
+- Supplier Governance
+- Contract Management
+- Value for Money
+- Industrial Development
+
+---
+
+## Public Finance
+
+Purpose
+
+Convert national revenue into productive public investment.
+
+Capabilities
+
+- Budget Coordination
+- Fiscal Governance
+- Treasury Management
+- Revenue Administration
+- Investment Prioritization
+
+---
+
+## Digital Public Infrastructure
+
+Purpose
+
+Provide the digital operating layer for government.
+
+Capabilities
+
+- Digital Identity
+- Authentication
+- Digital Payments
+- Data Exchange
+- Government Interoperability
+
+---
+
+## Institutional Memory
+
+Purpose
+
+Ensure institutions continuously learn rather than repeatedly restart.
+
+Capabilities
+
+- Knowledge Preservation
+- Policy Archives
+- Evidence Management
+- Organizational Learning
+- Decision Traceability
+
+---
+
+## AI Governance
+
+Purpose
+
+Ensure artificial intelligence strengthens institutions without weakening accountability.
+
+Capabilities
+
+- Human Oversight
+- Explainability
+- Transparency
+- Auditability
+- Risk Monitoring
+
+---
+
+## Coordination
+
+Purpose
+
+Synchronize institutions across government.
+
+Capabilities
+
+- Cross-Ministry Coordination
+- Multi-Level Government Coordination
+- Public–Private Coordination
+- Development Partner Coordination
+- Crisis Coordination
+
+---
+
+# Governance Primitives
+
+Every Institutional Operating System depends upon the following governance primitives.
+
+- Identity
+- Trust
+- Evidence
+- Standards
+- Coordination
+- Procurement
+- Capital Allocation
+- Accountability
+- Institutional Memory
+- Risk
+- Authority
+- Time
+- Knowledge
+- Interoperability
+
+---
+
+# Institutional Capability Loop
+
+```
+Governance
+
+↓
+
+Public Finance
+
+↓
+
+Procurement
+
+↓
+
+Digital Public Infrastructure
+
+↓
+
+Service Delivery
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↓
+
+Capability
+
+↓
+
+Competitiveness
+
+↓
+
+Governance
+```
+
+---
+
+# Institutional Architecture Layers
+
+```
+Projects
+
+↓
+
+Programs
+
+↓
+
+Institutions
+
+↓
+
+Governance
+
+↓
+
+Operating System
+
+↓
+
+National Capability
+
+↓
+
+Industrial Competitiveness
+```
+
+---
+
+# Capability Indicators
+
+Example Metrics
+
+- Governance Quality
+- Procurement Integrity
+- Budget Execution
+- Contract Performance
+- Public Trust
+- Institutional Learning
+- Digital Service Adoption
+- Interoperability
+- AI Governance Maturity
+- Institutional Resilience
+
+---
+
+# Institutional Risks
+
+Potential Systemic Risks
+
+- Policy Fragmentation
+- Procurement Failure
+- Weak Coordination
+- Institutional Memory Loss
+- Digital Fragmentation
+- Financial Misallocation
+- AI Governance Failure
+- Infrastructure Delivery Delays
+
+---
+
+# Research Questions
+
+- What institutional capability generates the highest long-term returns?
+
+- How do Digital Public Infrastructure and procurement reinforce one another?
+
+- What institutional architecture best converts investment into productivity?
+
+- How should AI governance evolve inside public institutions?
+
+- Can national competitiveness be measured as institutional capability?
+
+---
+
+# Future Extensions
+
+The Generic IOS serves as the baseline for:
+
+- Country Profiles
+- Institutional Benchmarks
+- Governance Models
+- Procurement Frameworks
+- AI Governance Standards
+- Digital Public Infrastructure Architectures
+- Institutional Knowledge Graphs
+- n8n Automation Workflows
+
+---
+
+# Related Examples
+
+- Nigeria
+- Kenya
+- Rwanda
+- Ghana
+- South Africa
+- Egypt
+- Ethiopia
+
+---
+
+## Legibility Office
+
+Making institutions legible.
+
+Building institutional operating systems for the twenty-first century.
+
+Institutional capability is the foundation of national competitiveness.
