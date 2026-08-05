@@ -1,0 +1,243 @@
+Institutional Capability Loop
+How Institutions Continuously Build National Capability
+Diagram Layout
+                  NATIONAL VISION
+                         │
+                         ▼
+               ┌────────────────────┐
+               │    GOVERNANCE      │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │  POLICY DESIGN     │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ RESOURCE ALLOCATION│
+               │ Public Finance     │
+               │ Procurement        │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │    EXECUTION       │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ SERVICE DELIVERY   │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ OUTCOMES           │
+               │ Productivity       │
+               │ Public Value       │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ PERFORMANCE        │
+               │ Measurement        │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ EVIDENCE           │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ INSTITUTIONAL      │
+               │ MEMORY             │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ LEARNING           │
+               └────────────────────┘
+                         │
+                         ▼
+               ┌────────────────────┐
+               │ CAPABILITY         │
+               │ IMPROVEMENT        │
+               └────────────────────┘
+                         │
+                         └─────────────────────────────┐
+                                                       │
+                                                       ▼
+                                                  GOVERNANCE
+Core Capability Cycle
+Governance
+
+↓
+
+Policy
+
+↓
+
+Resources
+
+↓
+
+Execution
+
+↓
+
+Performance
+
+↓
+
+Evidence
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↓
+
+Capability
+
+↓
+
+Better Governance
+
+↺
+Right-side Panel
+Institutional Capability Components
+Leadership
+
+↓
+
+Governance
+
+↓
+
+Coordination
+
+↓
+
+Procurement
+
+↓
+
+Digital Public Infrastructure
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↓
+
+Trust
+
+↓
+
+Execution
+
+↓
+
+Adaptation
+Capability Building Layers
+Strategic Layer
+National vision
+Political leadership
+Long-term priorities
+Institutional Layer
+Governance
+Coordination
+Regulation
+Public administration
+Operational Layer
+Procurement
+Budget execution
+Service delivery
+Programme management
+Learning Layer
+Monitoring
+Evaluation
+Audit
+Institutional memory
+Knowledge management
+Adaptive Layer
+Reform
+Innovation
+AI augmentation
+Continuous improvement
+Capability Flywheel
+Better Governance
+
+↓
+
+Better Coordination
+
+↓
+
+Better Execution
+
+↓
+
+Better Outcomes
+
+↓
+
+More Trust
+
+↓
+
+More Institutional Learning
+
+↓
+
+Higher Capability
+
+↓
+
+Even Better Governance
+
+↺
+Institutional Operating System Principle
+
+Institutions do not become capable through isolated reforms.
+
+Capability compounds through repeated cycles of governance, execution, evidence, institutional memory, learning, and adaptation.
+
+Design Specification
+Style
+World Bank institutional framework
+OECD capability model
+MIT Systems Thinking
+Clean enterprise architecture
+Colors
+White background
+Navy (#163A70)
+Light blue (#EAF2FB)
+Gray connectors
+Typography
+IBM Plex Sans
+Inter
+Source Sans Pro
+Suggested Icons
+Component	Icon
+Governance	Government building
+Policy	Compass
+Resources	Budget/Coins
+Execution	Gear
+Service Delivery	Factory/Bridge
+Performance	Dashboard
+Evidence	Document
+Institutional Memory	Database
+Learning	Book
+Capability	Upward arrow
+
+Use simple monochrome line icons with consistent stroke width.
