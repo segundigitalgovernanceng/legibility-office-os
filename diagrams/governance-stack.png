@@ -1,0 +1,159 @@
+Governance Stack
+The Governance Layer of the Institutional Operating System
+Diagram Layout
+                         NATIONAL VISION
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │  Constitutional Order  │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Strategic Governance   │
+                    │ National Priorities    │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Institutional          │
+                    │ Governance             │
+                    │ Ministries             │
+                    │ Regulators             │
+                    │ Agencies               │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Operational            │
+                    │ Governance             │
+                    │ Budget                 │
+                    │ Procurement            │
+                    │ Regulation             │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Digital Governance     │
+                    │ Identity               │
+                    │ Data                   │
+                    │ AI                     │
+                    │ Cybersecurity          │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Adaptive Governance    │
+                    │ Learning               │
+                    │ Feedback               │
+                    │ Reform                 │
+                    └────────────────────────┘
+                                │
+                                ▼
+                    ┌────────────────────────┐
+                    │ Institutional          │
+                    │ Capability             │
+                    └────────────────────────┘
+Right-side Panel
+Governance Primitives
+Authority
+
+↓
+
+Legitimacy
+
+↓
+
+Accountability
+
+↓
+
+Transparency
+
+↓
+
+Evidence
+
+↓
+
+Standards
+
+↓
+
+Trust
+
+↓
+
+Coordination
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+Bottom Feedback Loop
+Execution
+
+↓
+
+Evidence
+
+↓
+
+Institutional Memory
+
+↓
+
+Learning
+
+↓
+
+Governance Improvement
+
+↺
+Footer
+Governance Stack Principle
+
+Governance is not a single institution.
+
+Governance is the operating logic that aligns authority, resources, accountability, coordination, and learning into sustained institutional capability.
+
+Design Specification
+
+Style
+
+World Bank flagship report
+OECD institutional framework
+McKinsey Global Institute
+
+Colors
+
+White background
+Navy (#163A70)
+Soft blue (#EAF2FB)
+Gray connectors
+
+Typography
+
+IBM Plex Sans
+Inter
+Source Sans Pro
+
+Shapes
+
+Rounded rectangles
+Thin connectors (1.5–2 px)
+Equal spacing
+Flat design (no shadows or gradients)
+
+Icons (optional, monochrome line icons)
+
+Constitutional Order → Shield
+Strategic Governance → Compass
+Institutional Governance → Government building
+Operational Governance → Clipboard
+Digital Governance → Network nodes
+Adaptive Governance → Circular arrows
+Capability → Gear
