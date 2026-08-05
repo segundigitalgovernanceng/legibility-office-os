@@ -1,0 +1,210 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/segundigitalgovernanceng/legibility-office-os/schemas/dpi.json",
+  "title": "Legibility Office Digital Public Infrastructure Schema",
+  "description": "Canonical Digital Public Infrastructure (DPI) schema for the Institutional Operating System (IOS).",
+  "type": "object",
+  "required": [
+    "dpi_id",
+    "country",
+    "institution",
+    "dpi_layer",
+    "core_components",
+    "governance_primitives",
+    "interoperability",
+    "capability_score",
+    "status"
+  ],
+  "properties": {
+    "dpi_id": {
+      "type": "string",
+      "description": "Unique Digital Public Infrastructure identifier."
+    },
+
+    "country": {
+      "type": "string"
+    },
+
+    "institution": {
+      "type": "string"
+    },
+
+    "dpi_layer": {
+      "type": "string",
+      "enum": [
+        "Identity",
+        "Payments",
+        "Data Exchange",
+        "Digital Credentials",
+        "Public Registries",
+        "Digital Procurement",
+        "Digital Governance",
+        "Digital Public Services",
+        "Institutional Memory"
+      ]
+    },
+
+    "core_components": {
+      "type": "object",
+      "properties": {
+        "digital_identity": {
+          "type": "boolean"
+        },
+        "digital_payments": {
+          "type": "boolean"
+        },
+        "data_exchange": {
+          "type": "boolean"
+        },
+        "public_registries": {
+          "type": "boolean"
+        },
+        "digital_signatures": {
+          "type": "boolean"
+        },
+        "api_gateway": {
+          "type": "boolean"
+        },
+        "consent_management": {
+          "type": "boolean"
+        },
+        "institutional_memory": {
+          "type": "boolean"
+        }
+      }
+    },
+
+    "governance_primitives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Identity",
+          "Trust",
+          "Evidence",
+          "Verification",
+          "Consent",
+          "Authority",
+          "Standards",
+          "Interoperability",
+          "Coordination",
+          "Institutional Memory",
+          "Knowledge",
+          "Accountability"
+        ]
+      }
+    },
+
+    "interoperability": {
+      "type": "object",
+      "properties": {
+        "api_standards": {
+          "type": "boolean"
+        },
+        "shared_identifiers": {
+          "type": "boolean"
+        },
+        "data_standards": {
+          "type": "boolean"
+        },
+        "cross_agency": {
+          "type": "boolean"
+        },
+        "cross_border": {
+          "type": "boolean"
+        }
+      }
+    },
+
+    "service_domains": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "Procurement",
+          "Health",
+          "Education",
+          "Justice",
+          "Tax",
+          "Trade",
+          "Social Protection",
+          "Agriculture",
+          "Infrastructure",
+          "Public Finance"
+        ]
+      }
+    },
+
+    "institutional_outcomes": {
+      "type": "object",
+      "properties": {
+        "transparency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "service_delivery": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "coordination": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "trust": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "efficiency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+
+    "capability_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Overall Digital Public Infrastructure capability score."
+    },
+
+    "maturity_level": {
+      "type": "string",
+      "enum": [
+        "Emerging",
+        "Developing",
+        "Integrated",
+        "Advanced",
+        "Adaptive"
+      ]
+    },
+
+    "status": {
+      "type": "string",
+      "enum": [
+        "Planning",
+        "Pilot",
+        "Operational",
+        "Scaling",
+        "Legacy"
+      ]
+    },
+
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
