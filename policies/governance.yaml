@@ -1,0 +1,208 @@
+version: "1.0"
+
+institutional_operating_system:
+
+  governance:
+
+    metadata:
+      framework: "Legibility Office Institutional Operating System"
+      version: "1.0"
+      owner: "Legibility Office"
+      license: "Apache-2.0"
+
+    mission:
+      "Build trustworthy, adaptive, transparent and interoperable public institutions."
+
+    principles:
+
+      transparency: true
+      accountability: true
+      interoperability: true
+      institutional_memory: true
+      evidence_based_decision_making: true
+      adaptive_learning: true
+      risk_management: true
+      ethical_governance: true
+
+    governance_primitives:
+
+      - Authority
+      - Identity
+      - Trust
+      - Evidence
+      - Standards
+      - Coordination
+      - Accountability
+      - Institutional Memory
+      - Knowledge
+      - Time
+      - Consent
+      - Risk
+
+    governance_layers:
+
+      constitutional:
+
+        responsibilities:
+
+          - Rule of Law
+          - Constitutional Order
+          - National Sovereignty
+
+      strategic:
+
+        responsibilities:
+
+          - National Strategy
+          - Long-term Planning
+          - Capability Development
+
+      institutional:
+
+        responsibilities:
+
+          - Governance
+          - Policy Coordination
+          - Institutional Design
+
+      operational:
+
+        responsibilities:
+
+          - Service Delivery
+          - Procurement
+          - Budget Execution
+
+      digital:
+
+        responsibilities:
+
+          - Digital Public Infrastructure
+          - Data Governance
+          - AI Governance
+
+      adaptive:
+
+        responsibilities:
+
+          - Monitoring
+          - Evaluation
+          - Continuous Improvement
+
+    institutional_capabilities:
+
+      governance:
+        minimum_score: 70
+
+      coordination:
+        minimum_score: 70
+
+      execution:
+        minimum_score: 75
+
+      institutional_memory:
+        minimum_score: 80
+
+      interoperability:
+        minimum_score: 80
+
+      digital_capability:
+        minimum_score: 75
+
+    decision_process:
+
+      evidence_required: true
+
+      approval_required: true
+
+      audit_required: true
+
+      knowledge_capture_required: true
+
+      learning_feedback_required: true
+
+    accountability:
+
+      audit_frequency: "Quarterly"
+
+      performance_review: "Monthly"
+
+      governance_review: "Annual"
+
+      institutional_learning_cycle: "Continuous"
+
+    risk_management:
+
+      identify: true
+
+      assess: true
+
+      mitigate: true
+
+      monitor: true
+
+      report: true
+
+    interoperability:
+
+      api_first: true
+
+      shared_identifiers: true
+
+      open_standards: true
+
+      semantic_interoperability: true
+
+      cross_agency_data_exchange: true
+
+    institutional_memory:
+
+      capture_all_decisions: true
+
+      preserve_policy_history: true
+
+      preserve_procurement_history: true
+
+      preserve_governance_history: true
+
+      maintain_knowledge_graph: true
+
+    monitoring:
+
+      capability_dashboard: true
+
+      governance_dashboard: true
+
+      procurement_dashboard: true
+
+      dpi_dashboard: true
+
+      institutional_health_dashboard: true
+
+    ai_governance:
+
+      human_approval_required: true
+
+      explainability_required: true
+
+      audit_logs_required: true
+
+      policy_alignment_required: true
+
+      institutional_memory_updates_required: true
+
+    success_metrics:
+
+      trust_index
+
+      governance_score
+
+      capability_score
+
+      coordination_score
+
+      procurement_integrity
+
+      interoperability_score
+
+      institutional_resilience
