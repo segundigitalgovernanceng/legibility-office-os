@@ -1,0 +1,624 @@
+Build the onboarding layer around one promise:
+
+Clone the repository → choose an institution → build a first IOS → validate it → publish it in under 60 minutes.
+
+quickstart/
+├── README.md
+├── install.md
+├── quickstart-15-minutes.md
+├── quickstart-30-minutes.md
+├── quickstart-60-minutes.md
+├── first-ios.md
+├── choose-your-path.md
+└── checklist.md
+quickstart/README.md
+# IOS Quickstart
+
+
+Welcome to the Legibility Office Institutional Operating System.
+
+
+This directory is the fastest route from first contact to your first working Institutional Operating System (IOS).
+
+
+## Choose Your Path
+
+
+| Goal | Time | Start |
+|---|---:|---|
+| Understand IOS | 15 min | `quickstart-15-minutes.md` |
+| Build a basic institution | 30 min | `quickstart-30-minutes.md` |
+| Build a complete IOS | 60 min | `quickstart-60-minutes.md` |
+| Understand the architecture | 15 min | `first-ios.md` |
+| Choose an implementation | 5 min | `choose-your-path.md` |
+
+
+## The IOS Model
+
+
+Policy Intent
+↓
+Governance Architecture
+↓
+Procurement Systems
+↓
+Institutional Capability
+↓
+Execution Capacity
+↓
+Public Value
+
+
+The objective is not to produce another policy document.
+
+
+The objective is to create an institutional system that can continuously learn, coordinate, execute, and create public value.
+
+
+## Start Here
+
+
+If this is your first time:
+
+
+1. Read `choose-your-path.md`.
+2. Select Country, Ministry, or Agency.
+3. Open the corresponding example in `examples/`.
+4. Complete the templates.
+5. Connect the institution to the Knowledge Graph.
+6. Validate the result.
+7. Record the first institutional signals.
+8. Publish your IOS.
+
+
+## What You Will Build
+
+
+A basic IOS contains:
+
+
+- Institution profile
+- Governance model
+- Procurement model
+- Capability map
+- DPI dependencies
+- Risk register
+- Institutional memory
+- Initial signals
+- Institutional relationships
+- Improvement roadmap
+
+
+## Core Principle
+
+
+> Projects deliver outputs. Institutional Operating Systems repeatedly generate outcomes.
+choose-your-path.md
+# Choose Your Path
+
+
+What are you building?
+
+
+## Country
+
+
+Use:
+
+
+`examples/build-your-country/`
+
+
+Best for:
+
+
+- National governments
+- Development organisations
+- National transformation programmes
+- Competitiveness analysis
+
+
+## Ministry
+
+
+Use:
+
+
+`examples/build-your-ministry/`
+
+
+Best for:
+
+
+- Ministries
+- Departments
+- Sector transformation programmes
+
+
+## Agency
+
+
+Use:
+
+
+`examples/build-your-agency/`
+
+
+Best for:
+
+
+- Public agencies
+- Regulators
+- Authorities
+- Delivery institutions
+
+
+## Researcher
+
+
+Start with:
+
+
+`research/`
+
+
+Then explore:
+
+
+`knowledge-graph/`
+
+
+## Developer
+
+
+Start with:
+
+
+`api/`
+
+
+Then:
+
+
+`tools/`
+
+
+## First-time visitor
+
+
+Start with:
+
+
+`START-HERE.md`
+quickstart-15-minutes.md
+# 15-Minute Quickstart
+
+
+## Objective
+
+
+Understand the IOS architecture.
+
+
+### Minutes 0–5
+
+
+Read:
+
+
+`docs/institutional-operating-system.md`
+
+
+### Minutes 5–10
+
+
+Read:
+
+
+`docs/architecture.md`
+
+
+Focus on:
+
+
+- Governance
+- Procurement
+- Capability
+- DPI
+- Institutional Memory
+
+
+### Minutes 10–15
+
+
+Open:
+
+
+`knowledge-graph/`
+
+
+Understand the four semantic layers:
+
+
+- Entities
+- Relationships
+- Signals
+- Patterns
+
+
+## Outcome
+
+
+You should now understand what an IOS is and how the repository represents one.
+quickstart-30-minutes.md
+# 30-Minute Quickstart
+
+
+## Objective
+
+
+Build a basic institutional model.
+
+
+### 0–5 min
+
+
+Choose:
+
+
+Country / Ministry / Agency
+
+
+### 5–10 min
+
+
+Complete the institution profile.
+
+
+### 10–15 min
+
+
+Define governance.
+
+
+Identify:
+
+
+- Decision authority
+- Oversight
+- Coordination
+- Accountability
+
+
+### 15–20 min
+
+
+Map procurement.
+
+
+Identify:
+
+
+- Major procurement categories
+- Suppliers
+- Standards
+- Capability-transfer opportunities
+
+
+### 20–25 min
+
+
+Map capability.
+
+
+Identify:
+
+
+- Technical skills
+- Leadership
+- Processes
+- Institutional memory
+- Digital capability
+
+
+### 25–30 min
+
+
+Record:
+
+
+- Risks
+- Signals
+- Dependencies
+- Priority improvements
+
+
+## Outcome
+
+
+You now have a basic institutional capability map.
+quickstart-60-minutes.md
+# 60-Minute IOS Build
+
+
+- Decision rights
+- Governance bodies
+- Accountability
+- Regulatory relationships
+- Coordination mechanisms
+
+
+### 20–30 — Procurement
+
+
+Map:
+
+
+- Major procurement categories
+- Suppliers
+- Contracts
+- Standards
+- Local capability
+- Vendor dependencies
+
+
+### 30–40 — Capability
+
+
+Assess:
+
+
+- Technical expertise
+- Leadership
+- Processes
+- Digital capability
+- Institutional memory
+- Organisational learning
+
+
+### 40–50 — Infrastructure and Risk
+
+
+Map:
+
+
+- Identity
+- Payments
+- Data exchange
+- APIs
+- Interoperability
+- Critical risks
+
+
+### 50–55 — Knowledge Graph
+
+
+Create:
+
+
+- Entities
+- Relationships
+- Signals
+- Patterns
+
+
+### 55–60 — Roadmap
+
+
+Define:
+
+
+- Top 5 capability gaps
+- Top 5 risks
+- Top 5 interventions
+- 12-month improvement roadmap
+
+
+## Final Output
+
+
+At the end of 60 minutes you should have:
+
+
+Institution
+→ Governance
+→ Procurement
+→ Capability
+→ DPI
+→ Risk
+→ Knowledge Graph
+→ Improvement Roadmap
+first-ios.md
+# Build Your First Institutional Operating System
+
+
+An IOS is a structured representation of how an institution intends to govern, acquire capability, execute, learn, and create public value.
+
+
+## Minimum Architecture
+
+
+### 1. Institution
+
+
+Who are you modelling?
+
+
+### 2. Intent
+
+
+What must the institution achieve?
+
+
+### 3. Governance
+
+
+Who decides?
+
+
+### 4. Procurement
+
+
+How does the institution acquire capability?
+
+
+### 5. Capability
+
+
+What must the institution know and be able to do?
+
+
+### 6. Execution
+
+
+How does capability become delivery?
+
+
+### 7. Public Value
+
+
+What measurable value should result?
+
+
+### 8. Institutional Memory
+
+
+What must survive leadership and political cycles?
+
+
+### 9. Knowledge Graph
+
+
+How are the institution's entities, relationships, signals, and patterns connected?
+
+
+## The Test
+
+
+A good IOS should answer:
+
+
+> What does this institution do?
+
+
+> Who is responsible?
+
+
+> What capability does it possess?
+
+
+> What capability is missing?
+
+
+> What does it depend on?
+
+
+> What risks threaten it?
+
+
+> What evidence tells us whether it is improving?
+
+
+> What should happen next?
+checklist.md
+# IOS Build Checklist
+
+
+## Institution
+
+
+- [ ] Institution identified
+- [ ] Mandate documented
+- [ ] Strategic objectives defined
+
+
+## Governance
+
+
+- [ ] Decision rights mapped
+- [ ] Accountability mapped
+- [ ] Oversight identified
+- [ ] Coordination mechanisms identified
+
+
+## Procurement
+
+
+- [ ] Procurement categories mapped
+- [ ] Supplier dependencies identified
+- [ ] Standards identified
+- [ ] Capability-transfer opportunities identified
+
+
+## Capability
+
+
+- [ ] Technical capability assessed
+- [ ] Leadership capability assessed
+- [ ] Digital capability assessed
+- [ ] Institutional memory assessed
+- [ ] Capability gaps identified
+
+
+## DPI
+
+
+- [ ] Identity dependencies mapped
+- [ ] Payments mapped
+- [ ] Data exchange mapped
+- [ ] Interoperability mapped
+
+
+## Risk
+
+
+- [ ] Major risks identified
+- [ ] Critical dependencies identified
+- [ ] Risk owners identified
+
+
+## Knowledge Graph
+
+
+- [ ] Entities created
+- [ ] Relationships created
+- [ ] Signals created
+- [ ] Patterns identified
+
+
+## Roadmap
+
+
+- [ ] Priority gaps identified
+- [ ] Interventions defined
+- [ ] Owners assigned
+- [ ] Timeline established
+- [ ] Success measures defined
+Phase 1 definition of done
+quickstart/
+        │
+        ▼
+choose path
+        │
+        ▼
+examples/
+        │
+        ▼
+institution profile
+        │
+        ▼
+capability stack
+        │
+        ▼
+knowledge graph
+        │
+        ▼
+validation
+        │
+        ▼
+roadmap
+        │
+        ▼
+working IOS
+
+Fire Chamber Drop: The Quickstart is not documentation about the IOS. It is the first executable experience of the IOS.
